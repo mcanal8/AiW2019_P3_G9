@@ -10,30 +10,18 @@ package twittersearch;
 
 
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Iterator;
-import java.util.logging.Level;
 import java.util.logging.Logger;
-import twitter4j.FilterQuery;
 
 import twitter4j.Paging;
-import twitter4j.Query;
-import twitter4j.QueryResult;
 import twitter4j.ResponseList;
 import twitter4j.Status;
-import twitter4j.StatusListener;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 import twitter4j.conf.ConfigurationBuilder;
-import twitter4j.json.DataObjectFactory;
-import twitter4j.TwitterObjectFactory;
-import twitter4j.TwitterStream;
-import twitter4j.TwitterStreamFactory;
 /**
  *
  * @author UPF

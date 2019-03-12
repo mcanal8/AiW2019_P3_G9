@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Circles</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+	div.info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+	opacity: 0.8;
+	background-color: #7cafc0;
+    border: 1px solid #005d6d;
+
+	font-size: 18px;
+	font-family: 'Roboto','sans-serif';
+    }
+	
+    </style>
+  </head>
+  <body>
+<div id="map"></div>
+
+
+<div id="info" class="info">
+Click on the circle to see the information!
+</div>
+
+
+
+    <script>
+
+// This example creates circles on the map
+
+// First, create an object containing LatLng and population for each city.
+var citymap = {
+
+	//remember the format:
+	//id664873525564559360: {center: {lat: 41.40879414, lng: 2.1776104},color: '#0052A4',user: 'carlesapm',device: 'Instagram',time: 'Thu Nov 12 19:32:55 CET 2015',text: 'Aparicions celestials durant el rodatge de #emdicmanel #apmtv3 #estrelladammcat #igers #igersbcn� <a href="https://t.co/eYO1F5ySCp" target="_blank"> link </a>'},
+
+  	//WRITE HERE!
+
+
+};
+
+function showNewRect(user, device, time, text) {
+  	//alert(this.fillColor);
+	//alert(x);
+	document.getElementById('info').innerHTML = 
+							"<b>User:</b> <a href=\"https://twitter.com/"+user+"\" target=\"_blank\">"+user+"</a>"+
+							'<br><b>Application: </b>' + device +
+							'<br><b>Time: </b>' + time +
+							'<br><b>Text: </b>' + text;
+                                      
+}
+
+function initMap() {
+  // Create the map.
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13,
+    center: {lat: 40.37872, lng: -3.751144},
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  // Construct the circle for each value in citymap.
+  // Note: We scale the area of the circle based on the population.
+  for (var city in citymap) {
+    // Add the circle for this city to the map.
+    var cityCircle = new google.maps.Circle({
+      strokeColor: citymap[city].color,
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: citymap[city].color,
+      fillOpacity: 0.35,
+      map: map,
+      center: citymap[city].center,
+      radius: 50
+    });
+
+	//cityCircle.addListener('click', showNewRect);
+
+ 	var createCallback = function(innerCity){
+    	return function() {showNewRect(	citymap[innerCity].user,
+										citymap[innerCity].device,
+										citymap[innerCity].time, 
+										citymap[innerCity].text);};
+	};
+
+    cityCircle.addListener("click", createCallback(city), false);
+
+  }
+
+}
+
+var createAdd = function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+};
+
+var add = createAdd();
+
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoS4fjZzkelofeNudCU8CMejRZXiwiLSg&signed_in=true&libraries=visualization&callback=initMap"></script>
+  </body>
+</html>

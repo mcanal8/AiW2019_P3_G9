@@ -25,10 +25,10 @@ public class SearchByLocation {
 
 	private static Logger logger = Logger.getLogger(SearchByLocation.class.getName());
         
-        public static final String yourAccessToken="213848539-HVOiCydgn5ms8ESeCWX48EaVUXWHiYR6fa0C6pmL";
-        public static final String yourAccessTokenSecret="Qklg47pJabx6Dd2qeLUbaTesZkRxwq8h8j9NWfu9v8lVO";
-        public static final String yourConsumerKey="GY5MSamRwo2RUn0EylXsXNiNC";
-        public static final String yourConsumerKeySecret="5YH5Or4BpRP6FcgfFJZC3WY1VFhb26fOwXVq4vKnv0apDILD4L";
+        public static final String yourAccessToken="935448704802226177-DnVBSxS98pImTztRgd94hyOUGpH6hYT";
+        public static final String yourAccessTokenSecret="xv1nKCSayygzv6ucZJzdhHNRxgDsI04EDi84xGFwkjlAw";
+        public static final String yourConsumerKey="DDG2KsFSMaiza1w1QkRGySR8U";
+        public static final String yourConsumerKeySecret="uX7oQqJoR8fvaAmNYVgV6tL4TddgmnL4u7l75UKItdp48Opom6";
 	
 	public static void main(String[] args) {
 		
@@ -43,11 +43,6 @@ public class SearchByLocation {
 	            .setOAuthConsumerSecret(yourConsumerKeySecret)
 	            .setOAuthAccessToken(yourAccessToken)
 	            .setOAuthAccessTokenSecret(yourAccessTokenSecret);
-
-		
-		
-		
-		
 		
                  // create a stream to listen new tweets
                  TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
@@ -60,16 +55,14 @@ public class SearchByLocation {
                 FilterQuery fq = new FilterQuery();
 
                 // -- filter specific geografic area
-                double[][] locations = {{0.440658, 40.885126}, {3.731063, 42.367324}}; //catalunia
+              
+                double[][] locations = {{-3.751144, 40.37872}, {-3.638535, 40.475942}}; //Madrid
+                
+                //double[][] locations = {{11.451874,48.073262}, {11.705933,48.201566}}; //Munich
+                
                 fq.locations(locations);
 
-
                 twitterStream.addListener(listener);
-                twitterStream.filter(fq);
-
-               
-
-		
+                twitterStream.filter(fq);		
 	}
-
 }

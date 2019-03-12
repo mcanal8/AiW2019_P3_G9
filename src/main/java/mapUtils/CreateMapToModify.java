@@ -5,7 +5,7 @@
  */
 
 
-package maps;
+package mapUtils;
 
 import gate.Annotation;
 import gate.AnnotationSet;
@@ -48,6 +48,18 @@ public class CreateMapToModify {
 	public static void main(String[] args) {
 
 		try {
+
+                    if(Gate.getGateHome() == null) {
+                        //Gate.setGateHome(new File(USER_HOME_DIRECTORY + "/GATE_Developer_8.0"));
+                        //Gate.setGateHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN"));
+                        Gate.setGateHome(new File("D:\\Program Files\\GATE_Developer_8.0"));
+                    }
+
+                    if(Gate.getPluginsHome() == null) {
+                        //Gate.setPluginsHome(new File(USER_HOME_DIRECTORY + "/GATE_Developer_8.0/plugins"));
+                        //Gate.setPluginsHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN\\plugins"));
+                        Gate.setPluginsHome(new File("D:\\Program Files\\GATE_Developer_8.0\\plugins"));
+                    }
                     Gate.init();
                     String encoding = "UTF-8";
                     File inDir=new File("./data/analysed");
@@ -169,8 +181,8 @@ public class CreateMapToModify {
                               
                         
                         //other if here to decide which kind of map to create
-                        MapsUtils.createNewMap(inputFileHeat, textToWriteHeat);
-                        MapsUtils.createNewMap(inputFileCircle, textToWriteCircle);
+                        maps.MapsUtils.createNewMap(inputFileHeat, textToWriteHeat);
+                        maps.MapsUtils.createNewMap(inputFileCircle, textToWriteCircle);
                         
                 } catch (ResourceInstantiationException ex) {
               ex.printStackTrace();

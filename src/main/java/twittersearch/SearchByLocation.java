@@ -61,8 +61,8 @@ public class SearchByLocation {
                 //double[][] locations = {{11.451874,48.073262}, {11.705933,48.201566}}; //Munich
                 
                 fq.locations(locations);
-                String[] language = {"en"}; // English
-                //String[] language = {"es"}; //Spanish
+                //String[] language = {"en"}; // English
+                String[] language = {"es"}; //Spanish
                 fq.language(language);
                 twitterStream.addListener(listener);
                 twitterStream.filter(fq);		

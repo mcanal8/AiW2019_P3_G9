@@ -52,11 +52,12 @@ public class xmlExtractor {
         for(int i=0; i<nlSpa.getLength(); i++) {
             Element elem = (Element)nlSpa.item(i);
             float polarity = Float.parseFloat(elem.getAttribute("pol"));
+            String newstring = elem.getTextContent().trim() ;
             if (polarity >= 0.5){
-                oswPosSpa.write(elem.getTextContent()+"\n");
+                oswPosSpa.write(newstring+"\n");
             }
             else if(polarity <= -0.5){
-                oswNegSpa.write(elem.getTextContent()+"\n");             
+                oswNegSpa.write(newstring+"\n");             
             };
         }   
         
@@ -79,11 +80,13 @@ public class xmlExtractor {
         for(int i=0; i<nlEn.getLength(); i++) {
             Element elem = (Element)nlEn.item(i);
             float polarity = Float.parseFloat(elem.getAttribute("pol"));
+            String newstring = elem.getTextContent().trim() ;
+            
             if (polarity >= 0.5){
-                oswPosEn.write(elem.getTextContent()+"\n");
+                oswPosEn.write(newstring+"\n");
             }
             else if(polarity <= -0.5){
-                oswNegEn.write(elem.getTextContent()+"\n");             
+                oswNegEn.write(newstring+"\n");             
             };
         }
           

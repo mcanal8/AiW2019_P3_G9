@@ -1,0 +1,4 @@
+pos_spanish.lst:POSITIVE::spanish:Senti
+neg_spanish.lst:NEGATIVE::spanish:Senti
+pos_english.lst:POSITIVE::english:Senti
+neg_english.lst:NEGATIVE::english:Senti

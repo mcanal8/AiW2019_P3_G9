@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1106214668174061569.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106214668174061569.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -22,7 +26,7 @@
 <Node id="54"/>
 <Node id="55"/>En<Node id="57"/> <Node id="58"/>palabras<Node id="66"/> <Node id="67"/>de<Node id="69"/> <Node id="70"/>Oscar<Node id="75"/> <Node id="76"/>Wilde<Node id="81"/>:<Node id="82"/> <Node id="83"/>
 <Node id="84"/>
-<Node id="85"/>La<Node id="87"/> <Node id="88"/>realidad<Node id="96"/> <Node id="97"/>es<Node id="99"/> <Node id="100"/>que<Node id="103"/> <Node id="104"/>los<Node id="107"/> <Node id="108"/>éxitos<Node id="114"/>…<Node id="115"/> <Node id="116"/>https://t.<Node id="126"/>co<Node id="128"/>/33odyBISpj<Node id="139"/>
+<Node id="85"/>La<Node id="87"/> <Node id="88"/>realidad<Node id="96"/> <Node id="97"/>es<Node id="99"/> <Node id="100"/>que<Node id="103"/> <Node id="104"/>los<Node id="107"/> <Node id="108"/>éxitos<Node id="114"/>…<Node id="115"/> <Node id="116"/>https://t.co/33odyBISpj<Node id="139"/>
 <Node id="140"/>
 <Node id="141"/></TextWithNodes>
 <!-- The default annotation set -->
@@ -101,7 +105,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">spanish</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -1154,127 +1158,45 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">control</Value>
 </Feature>
 </Annotation>
-<Annotation Id="179" Type="Lookup" StartNode="23" EndNode="26">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">person_first</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">male</Value>
-</Feature>
-</Annotation>
-<Annotation Id="180" Type="Lookup" StartNode="28" EndNode="30">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">surname</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">prefix</Value>
-</Feature>
-</Annotation>
-<Annotation Id="181" Type="Lookup" StartNode="28" EndNode="30">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="182" Type="Lookup" StartNode="67" EndNode="69">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">surname</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">prefix</Value>
-</Feature>
-</Annotation>
-<Annotation Id="183" Type="Lookup" StartNode="67" EndNode="69">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="184" Type="Lookup" StartNode="97" EndNode="99">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="185" Type="Lookup" StartNode="126" EndNode="128">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="186" Type="Lookup" StartNode="126" EndNode="128">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">url_key</Value>
-</Feature>
-</Annotation>
-<Annotation Id="187" Type="Split" StartNode="37" EndNode="38">
+<Annotation Id="179" Type="Split" StartNode="37" EndNode="38">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="188" Type="Split" StartNode="52" EndNode="53">
+<Annotation Id="180" Type="Split" StartNode="52" EndNode="53">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="189" Type="Split" StartNode="53" EndNode="55">
+<Annotation Id="181" Type="Split" StartNode="53" EndNode="55">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="190" Type="Split" StartNode="83" EndNode="85">
+<Annotation Id="182" Type="Split" StartNode="83" EndNode="85">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="191" Type="Split" StartNode="139" EndNode="141">
+<Annotation Id="183" Type="Split" StartNode="139" EndNode="141">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="192" Type="Sentence" StartNode="0" EndNode="38">
+<Annotation Id="184" Type="Sentence" StartNode="0" EndNode="38">
 </Annotation>
-<Annotation Id="193" Type="Sentence" StartNode="39" EndNode="53">
+<Annotation Id="185" Type="Sentence" StartNode="39" EndNode="53">
 </Annotation>
-<Annotation Id="194" Type="Sentence" StartNode="55" EndNode="82">
+<Annotation Id="186" Type="Sentence" StartNode="55" EndNode="82">
 </Annotation>
-<Annotation Id="195" Type="Sentence" StartNode="85" EndNode="139">
+<Annotation Id="187" Type="Sentence" StartNode="85" EndNode="139">
 </Annotation>
-<Annotation Id="214" Type="Person" StartNode="23" EndNode="26">
-<Feature>
-  <Name className="java.lang.String">rule</Name>
-  <Value className="java.lang.String">GazPersonFirst</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">firstName</Name>
-  <Value className="java.lang.String">dan</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">ruleFinal</Name>
-  <Value className="java.lang.String">PersonFinal</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">gender</Name>
-  <Value className="java.lang.String">male</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">kind</Name>
-  <Value className="java.lang.String">firstName</Value>
-</Feature>
-</Annotation>
-<Annotation Id="215" Type="Unknown" StartNode="11" EndNode="14">
+<Annotation Id="204" Type="Unknown" StartNode="11" EndNode="14">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1284,7 +1206,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="216" Type="Unknown" StartNode="31" EndNode="37">
+<Annotation Id="205" Type="Unknown" StartNode="23" EndNode="26">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1294,7 +1216,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="217" Type="Unknown" StartNode="55" EndNode="57">
+<Annotation Id="206" Type="Unknown" StartNode="28" EndNode="30">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1304,7 +1226,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="218" Type="Unknown" StartNode="58" EndNode="66">
+<Annotation Id="207" Type="Unknown" StartNode="31" EndNode="37">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1314,7 +1236,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="219" Type="Unknown" StartNode="70" EndNode="75">
+<Annotation Id="208" Type="Unknown" StartNode="55" EndNode="57">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1324,7 +1246,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="220" Type="Unknown" StartNode="76" EndNode="81">
+<Annotation Id="209" Type="Unknown" StartNode="58" EndNode="66">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1334,7 +1256,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="221" Type="Unknown" StartNode="85" EndNode="87">
+<Annotation Id="210" Type="Unknown" StartNode="70" EndNode="75">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1344,7 +1266,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="222" Type="Unknown" StartNode="88" EndNode="96">
+<Annotation Id="211" Type="Unknown" StartNode="76" EndNode="81">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1354,7 +1276,7 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="223" Type="Unknown" StartNode="104" EndNode="107">
+<Annotation Id="212" Type="Unknown" StartNode="85" EndNode="87">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1364,7 +1286,27 @@ La realidad es que los éxitos se los llevan los fuertes y el fracaso los débil
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="224" Type="Unknown" StartNode="108" EndNode="114">
+<Annotation Id="213" Type="Unknown" StartNode="88" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="Unknown" StartNode="104" EndNode="107">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="Unknown" StartNode="108" EndNode="114">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>

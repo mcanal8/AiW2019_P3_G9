@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1106214671563046913.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106214671563046913.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -18,7 +22,7 @@
 </GateDocumentFeatures>
 <!-- The document content area with serialized nodes -->
 
-<TextWithNodes><Node id="0"/>.<Node id="1"/>.<Node id="2"/>.<Node id="3"/>flotando<Node id="11"/>,<Node id="12"/> <Node id="13"/>es<Node id="15"/> <Node id="16"/>flotando<Node id="24"/>:<Node id="25"/> <Node id="26"/>un<Node id="28"/> <Node id="29"/>texto<Node id="34"/> <Node id="35"/>q<Node id="36"/> <Node id="37"/>SE<Node id="39"/> <Node id="40"/>movía<Node id="45"/>⚔<Node id="46"/>️<Node id="47"/>toda<Node id="51"/> <Node id="52"/>la<Node id="54"/> <Node id="55"/>pantalla<Node id="63"/>,<Node id="64"/>evidentement<Node id="76"/> <Node id="77"/>una<Node id="80"/> <Node id="81"/>d<Node id="82"/> <Node id="83"/>tantas<Node id="89"/> <Node id="90"/>tramoyas<Node id="98"/> <Node id="99"/>españolas<Node id="108"/> <Node id="109"/>q<Node id="110"/> <Node id="111"/>se<Node id="113"/> <Node id="114"/>e<Node id="115"/>…<Node id="116"/> <Node id="117"/>https://t.<Node id="127"/>co<Node id="129"/>/Ceo5MZ7Eix<Node id="140"/>
+<TextWithNodes><Node id="0"/>.<Node id="1"/>.<Node id="2"/>.<Node id="3"/>flotando<Node id="11"/>,<Node id="12"/> <Node id="13"/>es<Node id="15"/> <Node id="16"/>flotando<Node id="24"/>:<Node id="25"/> <Node id="26"/>un<Node id="28"/> <Node id="29"/>texto<Node id="34"/> <Node id="35"/>q<Node id="36"/> <Node id="37"/>SE<Node id="39"/> <Node id="40"/>movía<Node id="45"/>⚔<Node id="46"/>️<Node id="47"/>toda<Node id="51"/> <Node id="52"/>la<Node id="54"/> <Node id="55"/>pantalla<Node id="63"/>,<Node id="64"/>evidentement<Node id="76"/> <Node id="77"/>una<Node id="80"/> <Node id="81"/>d<Node id="82"/> <Node id="83"/>tantas<Node id="89"/> <Node id="90"/>tramoyas<Node id="98"/> <Node id="99"/>españolas<Node id="108"/> <Node id="109"/>q<Node id="110"/> <Node id="111"/>se<Node id="113"/> <Node id="114"/>e<Node id="115"/>…<Node id="116"/> <Node id="117"/>https://t.co/Ceo5MZ7Eix<Node id="140"/>
 <Node id="141"/>
 <Node id="142"/></TextWithNodes>
 <!-- The default annotation set -->
@@ -92,7 +96,7 @@
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">spanish</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -1136,63 +1140,23 @@ SUDACA EN 🐀Monarquía Cleptocrática👮CN #300milBebésRobados🇪🇸
   <Value className="java.lang.String">control</Value>
 </Feature>
 </Annotation>
-<Annotation Id="166" Type="Lookup" StartNode="13" EndNode="15">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="167" Type="Lookup" StartNode="52" EndNode="54">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="168" Type="Lookup" StartNode="77" EndNode="80">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">person_first</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">female</Value>
-</Feature>
-</Annotation>
-<Annotation Id="169" Type="Lookup" StartNode="111" EndNode="113">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="170" Type="Lookup" StartNode="127" EndNode="129">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="171" Type="Lookup" StartNode="127" EndNode="129">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">url_key</Value>
-</Feature>
-</Annotation>
-<Annotation Id="172" Type="Split" StartNode="0" EndNode="3">
+<Annotation Id="166" Type="Split" StartNode="0" EndNode="3">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="173" Type="Split" StartNode="140" EndNode="142">
+<Annotation Id="167" Type="Split" StartNode="140" EndNode="142">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="174" Type="Sentence" StartNode="0" EndNode="3">
+<Annotation Id="168" Type="Sentence" StartNode="0" EndNode="3">
 </Annotation>
-<Annotation Id="175" Type="Sentence" StartNode="3" EndNode="140">
+<Annotation Id="169" Type="Sentence" StartNode="3" EndNode="140">
 </Annotation>
-<Annotation Id="189" Type="Person" StartNode="37" EndNode="45">
+<Annotation Id="181" Type="Person" StartNode="37" EndNode="45">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">PersonFullInitials</Value>
@@ -1214,29 +1178,7 @@ SUDACA EN 🐀Monarquía Cleptocrática👮CN #300milBebésRobados🇪🇸
   <Value className="java.lang.String">fullName</Value>
 </Feature>
 </Annotation>
-<Annotation Id="190" Type="Person" StartNode="77" EndNode="80">
-<Feature>
-  <Name className="java.lang.String">rule</Name>
-  <Value className="java.lang.String">GazPersonFirst</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">firstName</Name>
-  <Value className="java.lang.String">una</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">ruleFinal</Name>
-  <Value className="java.lang.String">PersonFinal</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">gender</Name>
-  <Value className="java.lang.String">female</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">kind</Name>
-  <Value className="java.lang.String">firstName</Value>
-</Feature>
-</Annotation>
-<Annotation Id="191" Type="Unknown" StartNode="26" EndNode="28">
+<Annotation Id="182" Type="Unknown" StartNode="26" EndNode="28">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1246,7 +1188,7 @@ SUDACA EN 🐀Monarquía Cleptocrática👮CN #300milBebésRobados🇪🇸
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="192" Type="Unknown" StartNode="29" EndNode="34">
+<Annotation Id="183" Type="Unknown" StartNode="29" EndNode="34">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1256,7 +1198,17 @@ SUDACA EN 🐀Monarquía Cleptocrática👮CN #300milBebésRobados🇪🇸
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="193" Type="Unknown" StartNode="47" EndNode="51">
+<Annotation Id="184" Type="Unknown" StartNode="47" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Unknown" StartNode="52" EndNode="54">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>

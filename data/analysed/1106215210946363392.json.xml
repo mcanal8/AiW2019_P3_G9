@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1106215210946363392.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106215210946363392.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">unknown</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -79,7 +83,7 @@
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">unknown</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -347,11 +351,6 @@
   <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>48</capacity><count>39</count><theKeys><string>utc_offset</string><string>friends_count</string><string>profile_image_url_https</string><string>listed_count</string><string>profile_background_image_url</string><string>default_profile_image</string><string>favourites_count</string><string>description</string><string>created_at</string><string>is_translator</string><string>profile_background_image_url_https</string><string>protected</string><string>screen_name</string><string>id_str</string><string>profile_link_color</string><string>translator_type</string><string>id</string><string>geo_enabled</string><string>profile_background_color</string><string>lang</string><string>profile_sidebar_border_color</string><string>profile_text_color</string><string>verified</string><string>profile_image_url</string><string>time_zone</string><string>url</string><string>contributors_enabled</string><string>profile_background_tile</string><string>profile_banner_url</string><string>statuses_count</string><string>follow_request_sent</string><string>followers_count</string><string>profile_use_background_image</string><string>default_profile</string><string>following</string><string>name</string><string>location</string><string>profile_sidebar_fill_color</string><string>notifications</string><null/><null/><null/><null/><null/><null/><null/><null/><null/></theKeys><theValues><null/><int>476</int><string>https://pbs.twimg.com/profile_images/1006194959152762883/xMb-Ty60_normal.jpg</string><int>23</int><string>http://abs.twimg.com/images/themes/theme14/bg.gif</string><boolean>false</boolean><int>6660</int><string>Entrenador Nacional Fútbol.  Ex Entr.CDMostoles 3ªDiv. 17/18-V.del Pardillo(Pref.Afic+3ªDiv 15/17)- EDMoratalaz(JuvNacional)-Alcobendas CF(Pref.Afic.)-Recuerdo</string><string>Sat Jul 30 12:34:25 +0000 2011</string><boolean>false</boolean><string>https://abs.twimg.com/images/themes/theme14/bg.gif</string><boolean>false</boolean><string>berensoccer</string><string>345337929</string><string>009999</string><string>none</string><int>345337929</int><boolean>true</boolean><string>131516</string><string>es</string><string>EEEEEE</string><string>333333</string><boolean>false</boolean><string>http://pbs.twimg.com/profile_images/1006194959152762883/xMb-Ty60_normal.jpg</string><null/><null/><boolean>false</boolean><boolean>true</boolean><string>https://pbs.twimg.com/profile_banners/345337929/1351454540</string><int>21202</int><null/><int>2246</int><boolean>true</boolean><boolean>false</boolean><null/><string>AlfonsoBerenguer</string><string>Madrid</string><string>EFEFEF</string><null/><null/><null/><null/><null/><null/><null/><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
 </Feature>
 </Annotation>
-</AnnotationSet>
-
-<!-- Named annotation set -->
-
-<AnnotationSet Name="Sentiment">
 </AnnotationSet>
 
 </GateDocument>

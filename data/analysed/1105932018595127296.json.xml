@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1105932018595127296.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1105932018595127296.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -18,7 +22,7 @@
 </GateDocumentFeatures>
 <!-- The document content area with serialized nodes -->
 
-<TextWithNodes><Node id="0"/>#<Node id="1"/>BKT<Node id="4"/> <Node id="5"/>Nuestras<Node id="13"/> <Node id="14"/>chicas<Node id="20"/> <Node id="21"/>del<Node id="24"/> <Node id="25"/>Sénior<Node id="31"/> <Node id="32"/>Autonómica<Node id="42"/> <Node id="43"/>se<Node id="45"/> <Node id="46"/>llevan<Node id="52"/> <Node id="53"/>el<Node id="55"/> <Node id="56"/>duelo<Node id="61"/> <Node id="62"/>de<Node id="64"/> <Node id="65"/>invictas<Node id="73"/> <Node id="74"/>(<Node id="75"/>53<Node id="77"/>-<Node id="78"/>44<Node id="80"/>)<Node id="81"/> <Node id="82"/>en<Node id="84"/> <Node id="85"/>un<Node id="87"/> <Node id="88"/>intenso<Node id="95"/> <Node id="96"/>partido<Node id="103"/>,<Node id="104"/> <Node id="105"/>ante<Node id="109"/> <Node id="110"/>el<Node id="112"/> <Node id="113"/> <Node id="114"/>B<Node id="115"/>…<Node id="116"/> <Node id="117"/>https://t.<Node id="127"/>co<Node id="129"/>/VCriZyT3<Node id="138"/>lu<Node id="140"/>
+<TextWithNodes><Node id="0"/>#<Node id="1"/>BKT<Node id="4"/> <Node id="5"/>Nuestras<Node id="13"/> <Node id="14"/>chicas<Node id="20"/> <Node id="21"/>del<Node id="24"/> <Node id="25"/>Sénior<Node id="31"/> <Node id="32"/>Autonómica<Node id="42"/> <Node id="43"/>se<Node id="45"/> <Node id="46"/>llevan<Node id="52"/> <Node id="53"/>el<Node id="55"/> <Node id="56"/>duelo<Node id="61"/> <Node id="62"/>de<Node id="64"/> <Node id="65"/>invictas<Node id="73"/> <Node id="74"/>(<Node id="75"/>53<Node id="77"/>-<Node id="78"/>44<Node id="80"/>)<Node id="81"/> <Node id="82"/>en<Node id="84"/> <Node id="85"/>un<Node id="87"/> <Node id="88"/>intenso<Node id="95"/> <Node id="96"/>partido<Node id="103"/>,<Node id="104"/> <Node id="105"/>ante<Node id="109"/> <Node id="110"/>el<Node id="112"/> <Node id="113"/> <Node id="114"/>B<Node id="115"/>…<Node id="116"/> <Node id="117"/>https://t.co/VCriZyT3lu<Node id="140"/>
 <Node id="141"/>
 <Node id="142"/></TextWithNodes>
 <!-- The default annotation set -->
@@ -71,7 +75,7 @@
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">spanish</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -1114,75 +1118,15 @@
   <Value className="java.lang.String">control</Value>
 </Feature>
 </Annotation>
-<Annotation Id="148" Type="Lookup" StartNode="21" EndNode="24">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">surname</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">prefix</Value>
-</Feature>
-</Annotation>
-<Annotation Id="149" Type="Lookup" StartNode="21" EndNode="24">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">person_first</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">male</Value>
-</Feature>
-</Annotation>
-<Annotation Id="150" Type="Lookup" StartNode="43" EndNode="45">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="151" Type="Lookup" StartNode="62" EndNode="64">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">surname</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">prefix</Value>
-</Feature>
-</Annotation>
-<Annotation Id="152" Type="Lookup" StartNode="62" EndNode="64">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="153" Type="Lookup" StartNode="127" EndNode="129">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="154" Type="Lookup" StartNode="127" EndNode="129">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">url_key</Value>
-</Feature>
-</Annotation>
-<Annotation Id="155" Type="Lookup" StartNode="138" EndNode="140">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="156" Type="Split" StartNode="140" EndNode="142">
+<Annotation Id="148" Type="Split" StartNode="140" EndNode="142">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="157" Type="Sentence" StartNode="0" EndNode="140">
+<Annotation Id="149" Type="Sentence" StartNode="0" EndNode="140">
 </Annotation>
-<Annotation Id="179" Type="Person" StartNode="1" EndNode="13">
+<Annotation Id="169" Type="Person" StartNode="1" EndNode="13">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">PersonFullInitials</Value>
@@ -1204,33 +1148,7 @@
   <Value className="java.lang.String">fullName</Value>
 </Feature>
 </Annotation>
-<Annotation Id="180" Type="Person" StartNode="21" EndNode="31">
-<Feature>
-  <Name className="java.lang.String">firstName</Name>
-  <Value className="java.lang.String">del</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">rule</Name>
-  <Value className="java.lang.String">PersonFull</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">ruleFinal</Name>
-  <Value className="java.lang.String">PersonFinal</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">gender</Name>
-  <Value className="java.lang.String">male</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">surname</Name>
-  <Value className="java.lang.String">Sénior</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">kind</Name>
-  <Value className="java.lang.String">fullName</Value>
-</Feature>
-</Annotation>
-<Annotation Id="181" Type="Unknown" StartNode="14" EndNode="20">
+<Annotation Id="170" Type="Unknown" StartNode="14" EndNode="20">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1240,7 +1158,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="182" Type="Unknown" StartNode="32" EndNode="42">
+<Annotation Id="171" Type="Unknown" StartNode="21" EndNode="24">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1250,7 +1168,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="183" Type="Unknown" StartNode="46" EndNode="52">
+<Annotation Id="172" Type="Unknown" StartNode="25" EndNode="31">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1260,7 +1178,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="184" Type="Unknown" StartNode="53" EndNode="55">
+<Annotation Id="173" Type="Unknown" StartNode="32" EndNode="42">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1270,7 +1188,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="185" Type="Unknown" StartNode="56" EndNode="61">
+<Annotation Id="174" Type="Unknown" StartNode="46" EndNode="52">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1280,7 +1198,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="186" Type="Unknown" StartNode="65" EndNode="73">
+<Annotation Id="175" Type="Unknown" StartNode="53" EndNode="55">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1290,7 +1208,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="187" Type="Unknown" StartNode="105" EndNode="109">
+<Annotation Id="176" Type="Unknown" StartNode="56" EndNode="61">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1300,7 +1218,27 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="188" Type="Unknown" StartNode="110" EndNode="112">
+<Annotation Id="177" Type="Unknown" StartNode="65" EndNode="73">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="178" Type="Unknown" StartNode="105" EndNode="109">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="Unknown" StartNode="110" EndNode="112">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>

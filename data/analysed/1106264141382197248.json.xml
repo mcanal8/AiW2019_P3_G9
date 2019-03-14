@@ -1,0 +1,1731 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106264141382197248.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/x-json-twitter</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>#<Node id="1"/>Brazaletes<Node id="11"/> <Node id="12"/>#<Node id="13"/>maori<Node id="18"/>es<Node id="20"/> <Node id="21"/>¿<Node id="22"/>Cuántos<Node id="29"/> <Node id="30"/>quieres<Node id="37"/>?<Node id="38"/> <Node id="39"/>
+<Node id="40"/>¿<Node id="41"/>1<Node id="42"/>️<Node id="43"/>⃣<Node id="44"/>?<Node id="45"/> <Node id="46"/>¿<Node id="47"/>2<Node id="48"/>️<Node id="49"/>⃣<Node id="50"/>?<Node id="51"/> <Node id="52"/>¿<Node id="53"/>3<Node id="54"/>️<Node id="55"/>⃣<Node id="56"/>?<Node id="57"/> <Node id="58"/>¿<Node id="59"/>4<Node id="60"/>️<Node id="61"/>⃣<Node id="62"/>?<Node id="63"/>.<Node id="64"/>.<Node id="65"/>.<Node id="66"/>
+<Node id="67"/> <Node id="68"/> <Node id="69"/> <Node id="70"/> <Node id="71"/> <Node id="72"/> <Node id="73"/> <Node id="74"/> <Node id="75"/> <Node id="76"/> <Node id="77"/>
+<Node id="78"/>Pide<Node id="82"/> <Node id="83"/>tu<Node id="85"/> <Node id="86"/>cita<Node id="90"/> <Node id="91"/>en<Node id="93"/> <Node id="94"/>ABRIL<Node id="99"/> <Node id="100"/>
+<Node id="101"/> <Node id="102"/> <Node id="103"/> <Node id="104"/>WhatsApp<Node id="112"/> <Node id="113"/>650<Node id="116"/> <Node id="117"/>018<Node id="120"/>…<Node id="121"/> <Node id="122"/>https://t.co/JVjKU2rZuq<Node id="145"/>
+<Node id="146"/>
+<Node id="147"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="0" Type="Tweet" StartNode="0" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">extended_tweet</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>extended_entities</string><string>entities</string><string>full_text</string><string>display_text_range</string><null/><null/></theKeys><theValues><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>1</count><theKeys><string>media</string><null/><null/></theKeys><theValues><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>12</capacity><count>10</count><theKeys><string>display_url</string><string>indices</string><string>sizes</string><string>id_str</string><string>expanded_url</string><string>media_url_https</string><string>id</string><string>type</string><string>media_url</string><string>url</string><null/><null/></theKeys><theValues><string>pic.twitter.com/6k3uZYQJfz</string><list><int>276</int><int>299</int></list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>small</string><string>large</string><string>thumb</string><string>medium</string><null/><null/></theKeys><theValues><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>510</int><int>680</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>1536</int><int>2048</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>150</int><int>150</int><string>crop</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>900</int><int>1200</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>1106264118967894016</string><string>https://twitter.com/moamadridtattoo/status/1106264141382197248/photo/1</string><string>https://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>1106264118967894016</string><string>photo</string><string>http://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>https://t.co/6k3uZYQJfz</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>5</count><theKeys><string>urls</string><string>hashtags</string><string>media</string><string>user_mentions</string><string>symbols</string><null/></theKeys><theValues><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>display_url</string><string>indices</string><string>expanded_url</string><string>url</string><null/><null/></theKeys><theValues><string>MoaMadridTattoo.com</string><list><int>122</int><int>145</int></list><string>http://MoaMadridTattoo.com</string><string>https://t.co/bfrI8T5pzX</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>0</int><int>11</int></list><string>Brazaletes</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>12</int><int>20</int></list><string>maories</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>147</int><int>156</int></list><string>tatuador</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>157</int><int>174</int></list><string>tatuadorenmadrid</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>175</int><int>188</int></list><string>MadridTattoo</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>189</int><int>201</int></list><string>maoritattoo</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>202</int><int>215</int></list><string>tatuajemaori</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>216</int><int>224</int></list><string>samoano</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>225</int><int>238</int></list><string>samoantattoo</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>239</int><int>254</int></list><string>tatuajesamoano</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>255</int><int>268</int></list><string>tattoodesign</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>269</int><int>275</int></list><string>maori</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>12</capacity><count>10</count><theKeys><string>display_url</string><string>indices</string><string>sizes</string><string>id_str</string><string>expanded_url</string><string>media_url_https</string><string>id</string><string>type</string><string>media_url</string><string>url</string><null/><null/></theKeys><theValues><string>pic.twitter.com/6k3uZYQJfz</string><list><int>276</int><int>299</int></list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>small</string><string>large</string><string>thumb</string><string>medium</string><null/><null/></theKeys><theValues><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>510</int><int>680</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>1536</int><int>2048</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>150</int><int>150</int><string>crop</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>900</int><int>1200</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>1106264118967894016</string><string>https://twitter.com/moamadridtattoo/status/1106264141382197248/photo/1</string><string>https://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>1106264118967894016</string><string>photo</string><string>http://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>https://t.co/6k3uZYQJfz</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list/><list/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>#Brazaletes #maories ¿Cuántos quieres? 
+¿1️⃣? ¿2️⃣? ¿3️⃣? ¿4️⃣?...
+👏👏👏👏👏
+Pide tu cita en ABRIL 
+👉 WhatsApp 650 018 319 
+👉 https://t.co/bfrI8T5pzX 
+#tatuador #tatuadorenmadrid #MadridTattoo #maoritattoo #tatuajemaori #samoano #samoantattoo #tatuajesamoano #tattoodesign #maori https://t.co/6k3uZYQJfz</string><list><int>0</int><int>275</int></list><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">created_at</Name>
+  <Value className="java.lang.String">Thu Mar 14 18:41:39 +0000 2019</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">source</Name>
+  <Value className="java.lang.String">&lt;a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android&lt;/a></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">retweet_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">retweeted</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">filter_level</Name>
+  <Value className="java.lang.String">low</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">is_quote_status</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">id_str</Name>
+  <Value className="java.lang.String">1106264141382197248</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">favorite_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">id</Name>
+  <Value className="java.lang.String">1106264141382197248</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">place</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>12</capacity><count>9</count><theKeys><string>country_code</string><string>country</string><string>full_name</string><string>bounding_box</string><string>place_type</string><string>name</string><string>attributes</string><string>id</string><string>url</string><null/><null/><null/></theKeys><theValues><string>ES</string><string>España</string><string>San Isidro, Madrid</string><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>coordinates</string><string>type</string><null/></theKeys><theValues><list><list><list><double>-3.740809</double><double>40.388539</double></list><list><double>-3.740809</double><double>40.405555</double></list><list><double>-3.715093</double><double>40.405555</double></list><list><double>-3.715093</double><double>40.388539</double></list></list></list><string>Polygon</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>neighborhood</string><string>San Isidro</string><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>0</count><theKeys><null/><null/><null/></theKeys><theValues><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>0125fb703f3cfc79</string><string>https://api.twitter.com/1.1/geo/id/0125fb703f3cfc79.json</string><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">quote_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">favorited</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">possibly_sensitive</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">truncated</Name>
+  <Value className="java.lang.Boolean">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">timestamp_ms</Name>
+  <Value className="java.lang.String">1552588899356</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">reply_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">entities</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>urls</string><string>hashtags</string><string>user_mentions</string><string>symbols</string><null/><null/></theKeys><theValues><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>display_url</string><string>indices</string><string>expanded_url</string><string>url</string><null/><null/></theKeys><theValues><string>twitter.com/i/web/status/1…</string><list><int>116</int><int>139</int></list><string>https://twitter.com/i/web/status/1106264141382197248</string><string>https://t.co/JVjKU2rZuq</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>0</int><int>11</int></list><string>Brazaletes</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>12</int><int>20</int></list><string>maories</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list/><list/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">display_text_range</Name>
+  <Value className="java.util.ArrayList" itemClassName="java.lang.Integer">0;140</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">user</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>48</capacity><count>39</count><theKeys><string>utc_offset</string><string>friends_count</string><string>profile_image_url_https</string><string>listed_count</string><string>profile_background_image_url</string><string>default_profile_image</string><string>favourites_count</string><string>description</string><string>created_at</string><string>is_translator</string><string>profile_background_image_url_https</string><string>protected</string><string>screen_name</string><string>id_str</string><string>profile_link_color</string><string>translator_type</string><string>id</string><string>geo_enabled</string><string>profile_background_color</string><string>lang</string><string>profile_sidebar_border_color</string><string>profile_text_color</string><string>verified</string><string>profile_image_url</string><string>time_zone</string><string>url</string><string>contributors_enabled</string><string>profile_background_tile</string><string>profile_banner_url</string><string>statuses_count</string><string>follow_request_sent</string><string>followers_count</string><string>profile_use_background_image</string><string>default_profile</string><string>following</string><string>name</string><string>location</string><string>profile_sidebar_fill_color</string><string>notifications</string><null/><null/><null/><null/><null/><null/><null/><null/><null/></theKeys><theValues><null/><int>208</int><string>https://pbs.twimg.com/profile_images/919866933675208704/mfVqts66_normal.jpg</string><int>23</int><string>http://abs.twimg.com/images/themes/theme1/bg.png</string><boolean>false</boolean><int>204</int><null/><string>Wed Apr 17 06:25:16 +0000 2013</string><boolean>false</boolean><string>https://abs.twimg.com/images/themes/theme1/bg.png</string><boolean>false</boolean><string>moamadridtattoo</string><string>1358722034</string><string>000000</string><string>none</string><int>1358722034</int><boolean>true</boolean><string>000000</string><string>es</string><string>000000</string><string>000000</string><boolean>false</boolean><string>http://pbs.twimg.com/profile_images/919866933675208704/mfVqts66_normal.jpg</string><null/><string>http://www.moamadridtattoo.com</string><boolean>false</boolean><boolean>false</boolean><string>https://pbs.twimg.com/profile_banners/1358722034/1508148515</string><int>753</int><null/><int>146</int><boolean>false</boolean><boolean>false</boolean><null/><string>Moa Madrid Tattoo</string><string>Madrid, España</string><string>000000</string><null/><null/><null/><null/><null/><null/><null/><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+</Annotation>
+<Annotation Id="1" Type="Token" StartNode="0" EndNode="1">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">#</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">HT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Token" StartNode="1" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">10</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">upperInitial</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">Brazaletes</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">HT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="SpaceToken" StartNode="11" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="SpaceToken" StartNode="20" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Token" StartNode="21" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">¿</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Token" StartNode="22" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">7</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">upperInitial</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">Cuántos</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="SpaceToken" StartNode="29" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Token" StartNode="30" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">7</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">lowercase</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">origString</Name>
+  <Value className="java.lang.String">quieres</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">quieres</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNS</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Token" StartNode="37" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">?</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="SpaceToken" StartNode="38" EndNode="39">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Token" StartNode="40" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">¿</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Token" StartNode="41" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="Token" StartNode="42" EndNode="43">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">️</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">other</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="DEFAULT_TOKEN" StartNode="43" EndNode="44">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">⃣</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="Token" StartNode="44" EndNode="45">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">?</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="SpaceToken" StartNode="45" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="Token" StartNode="46" EndNode="47">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">¿</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="Token" StartNode="47" EndNode="48">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="22" Type="Token" StartNode="48" EndNode="49">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">️</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">other</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="DEFAULT_TOKEN" StartNode="49" EndNode="50">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">⃣</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="24" Type="Token" StartNode="50" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">?</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="25" Type="SpaceToken" StartNode="51" EndNode="52">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="26" Type="Token" StartNode="52" EndNode="53">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">¿</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="27" Type="Token" StartNode="53" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="28" Type="Token" StartNode="54" EndNode="55">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">️</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">other</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="29" Type="DEFAULT_TOKEN" StartNode="55" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">⃣</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="30" Type="Token" StartNode="56" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">?</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="31" Type="SpaceToken" StartNode="57" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="32" Type="Token" StartNode="58" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">¿</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="33" Type="Token" StartNode="59" EndNode="60">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="34" Type="Token" StartNode="60" EndNode="61">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">️</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">other</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">UH</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="35" Type="DEFAULT_TOKEN" StartNode="61" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">⃣</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="36" Type="Token" StartNode="62" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">?</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="37" Type="Token" StartNode="63" EndNode="64">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">SYM</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="38" Type="Token" StartNode="64" EndNode="65">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="39" Type="Token" StartNode="65" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="41" Type="DEFAULT_TOKEN" StartNode="67" EndNode="68">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="42" Type="DEFAULT_TOKEN" StartNode="68" EndNode="69">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="43" Type="DEFAULT_TOKEN" StartNode="69" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="44" Type="DEFAULT_TOKEN" StartNode="70" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="45" Type="DEFAULT_TOKEN" StartNode="71" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="46" Type="DEFAULT_TOKEN" StartNode="72" EndNode="73">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="47" Type="DEFAULT_TOKEN" StartNode="73" EndNode="74">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="48" Type="DEFAULT_TOKEN" StartNode="74" EndNode="75">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="49" Type="DEFAULT_TOKEN" StartNode="75" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="50" Type="DEFAULT_TOKEN" StartNode="76" EndNode="77">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="52" Type="Token" StartNode="78" EndNode="82">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">upperInitial</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">Pide</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="53" Type="SpaceToken" StartNode="82" EndNode="83">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="54" Type="Token" StartNode="83" EndNode="85">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">lowercase</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">origString</Name>
+  <Value className="java.lang.String">tu</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">tu</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="55" Type="SpaceToken" StartNode="85" EndNode="86">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="56" Type="Token" StartNode="86" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">lowercase</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">origString</Name>
+  <Value className="java.lang.String">cita</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">cita</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="57" Type="SpaceToken" StartNode="90" EndNode="91">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="58" Type="Token" StartNode="91" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">lowercase</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">IN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="59" Type="SpaceToken" StartNode="93" EndNode="94">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="60" Type="Token" StartNode="94" EndNode="99">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">5</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">allCaps</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">origString</Name>
+  <Value className="java.lang.String">ABRIL</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">ABRIL</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="61" Type="SpaceToken" StartNode="99" EndNode="100">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="63" Type="DEFAULT_TOKEN" StartNode="101" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="64" Type="DEFAULT_TOKEN" StartNode="102" EndNode="103">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">UNKNOWN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="65" Type="SpaceToken" StartNode="103" EndNode="104">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="Token" StartNode="104" EndNode="112">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">8</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">mixedCaps</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">origString</Name>
+  <Value className="java.lang.String">WhatsApp</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">WhatsApp</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">NNP</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="SpaceToken" StartNode="112" EndNode="113">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="Token" StartNode="113" EndNode="116">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">650</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="SpaceToken" StartNode="116" EndNode="117">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="Token" StartNode="117" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">018</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">CD</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="Token" StartNode="120" EndNode="121">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">…</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">.</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="SpaceToken" StartNode="121" EndNode="122">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String"> </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">space</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="Hashtag" StartNode="0" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.Long">11</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Hashtag</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">#Brazaletes</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">Hashtag</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="Hashtag" StartNode="12" EndNode="20">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.Long">8</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Hashtag</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">#maories</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">Hashtag</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="Token" StartNode="122" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">https://t.co/JVjKU2rZuq</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">URL</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">temp_category</Name>
+  <Value className="java.lang.String">NN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.Long">23</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">URL</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">replaced</Name>
+  <Value className="java.lang.Integer">11</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">URL</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="URL" StartNode="122" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">https://t.co/JVjKU2rZuq</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">URL</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">temp_category</Name>
+  <Value className="java.lang.String">NN</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.Long">23</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">URL</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">replaced</Name>
+  <Value className="java.lang.Integer">11</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">URL</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="SpaceToken" StartNode="39" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">
+</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">control</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="SpaceToken" StartNode="66" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">
+</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">control</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="SpaceToken" StartNode="77" EndNode="78">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">
+</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">control</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="SpaceToken" StartNode="100" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">
+</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">control</Value>
+</Feature>
+</Annotation>
+<Annotation Id="94" Type="SpaceToken" StartNode="145" EndNode="146">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">
+</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">control</Value>
+</Feature>
+</Annotation>
+<Annotation Id="95" Type="SpaceToken" StartNode="146" EndNode="147">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">
+</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">control</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="Token" StartNode="12" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">#</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">HT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">punctuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="Token" StartNode="13" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">5</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">lowercase</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">maori</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">HT</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="Token" StartNode="18" EndNode="20">
+<Feature>
+  <Name className="java.lang.String">length</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">orth</Name>
+  <Value className="java.lang.String">lowercase</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">origString</Name>
+  <Value className="java.lang.String">es</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">he's</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">category</Name>
+  <Value className="java.lang.String">VBZ</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">word</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="Split" StartNode="37" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">internal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Split" StartNode="44" EndNode="45">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">internal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Split" StartNode="50" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">internal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Split" StartNode="56" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">internal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Split" StartNode="62" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">internal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Split" StartNode="63" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">internal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Split" StartNode="145" EndNode="147">
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">external</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Sentence" StartNode="0" EndNode="38">
+</Annotation>
+<Annotation Id="192" Type="Sentence" StartNode="40" EndNode="45">
+</Annotation>
+<Annotation Id="193" Type="Sentence" StartNode="46" EndNode="51">
+</Annotation>
+<Annotation Id="194" Type="Sentence" StartNode="52" EndNode="57">
+</Annotation>
+<Annotation Id="195" Type="Sentence" StartNode="58" EndNode="63">
+</Annotation>
+<Annotation Id="196" Type="Sentence" StartNode="63" EndNode="66">
+</Annotation>
+<Annotation Id="197" Type="Sentence" StartNode="78" EndNode="145">
+</Annotation>
+<Annotation Id="206" Type="Unknown" StartNode="22" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="Unknown" StartNode="78" EndNode="82">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="208" Type="Unknown" StartNode="83" EndNode="85">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="Unknown" StartNode="86" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="210" Type="Unknown" StartNode="94" EndNode="99">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="211" Type="Unknown" StartNode="104" EndNode="112">
+<Feature>
+  <Name className="java.lang.String">rule</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">kind</Name>
+  <Value className="java.lang.String">PN</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="Tweet" StartNode="0" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">extended_tweet</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>extended_entities</string><string>entities</string><string>full_text</string><string>display_text_range</string><null/><null/></theKeys><theValues><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>1</count><theKeys><string>media</string><null/><null/></theKeys><theValues><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>12</capacity><count>10</count><theKeys><string>display_url</string><string>indices</string><string>sizes</string><string>id_str</string><string>expanded_url</string><string>media_url_https</string><string>id</string><string>type</string><string>media_url</string><string>url</string><null/><null/></theKeys><theValues><string>pic.twitter.com/6k3uZYQJfz</string><list><int>276</int><int>299</int></list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>small</string><string>large</string><string>thumb</string><string>medium</string><null/><null/></theKeys><theValues><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>510</int><int>680</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>1536</int><int>2048</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>150</int><int>150</int><string>crop</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>900</int><int>1200</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>1106264118967894016</string><string>https://twitter.com/moamadridtattoo/status/1106264141382197248/photo/1</string><string>https://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>1106264118967894016</string><string>photo</string><string>http://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>https://t.co/6k3uZYQJfz</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>5</count><theKeys><string>urls</string><string>hashtags</string><string>media</string><string>user_mentions</string><string>symbols</string><null/></theKeys><theValues><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>display_url</string><string>indices</string><string>expanded_url</string><string>url</string><null/><null/></theKeys><theValues><string>MoaMadridTattoo.com</string><list><int>122</int><int>145</int></list><string>http://MoaMadridTattoo.com</string><string>https://t.co/bfrI8T5pzX</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>0</int><int>11</int></list><string>Brazaletes</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>12</int><int>20</int></list><string>maories</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>147</int><int>156</int></list><string>tatuador</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>157</int><int>174</int></list><string>tatuadorenmadrid</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>175</int><int>188</int></list><string>MadridTattoo</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>189</int><int>201</int></list><string>maoritattoo</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>202</int><int>215</int></list><string>tatuajemaori</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>216</int><int>224</int></list><string>samoano</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>225</int><int>238</int></list><string>samoantattoo</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>239</int><int>254</int></list><string>tatuajesamoano</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>255</int><int>268</int></list><string>tattoodesign</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>269</int><int>275</int></list><string>maori</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>12</capacity><count>10</count><theKeys><string>display_url</string><string>indices</string><string>sizes</string><string>id_str</string><string>expanded_url</string><string>media_url_https</string><string>id</string><string>type</string><string>media_url</string><string>url</string><null/><null/></theKeys><theValues><string>pic.twitter.com/6k3uZYQJfz</string><list><int>276</int><int>299</int></list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>small</string><string>large</string><string>thumb</string><string>medium</string><null/><null/></theKeys><theValues><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>510</int><int>680</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>1536</int><int>2048</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>150</int><int>150</int><string>crop</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>3</count><theKeys><string>w</string><string>h</string><string>resize</string></theKeys><theValues><int>900</int><int>1200</int><string>fit</string></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>1106264118967894016</string><string>https://twitter.com/moamadridtattoo/status/1106264141382197248/photo/1</string><string>https://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>1106264118967894016</string><string>photo</string><string>http://pbs.twimg.com/media/D1o9Wt7XgAAnSwS.jpg</string><string>https://t.co/6k3uZYQJfz</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list/><list/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>#Brazaletes #maories ¿Cuántos quieres? 
+¿1️⃣? ¿2️⃣? ¿3️⃣? ¿4️⃣?...
+👏👏👏👏👏
+Pide tu cita en ABRIL 
+👉 WhatsApp 650 018 319 
+👉 https://t.co/bfrI8T5pzX 
+#tatuador #tatuadorenmadrid #MadridTattoo #maoritattoo #tatuajemaori #samoano #samoantattoo #tatuajesamoano #tattoodesign #maori https://t.co/6k3uZYQJfz</string><list><int>0</int><int>275</int></list><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">created_at</Name>
+  <Value className="java.lang.String">Thu Mar 14 18:41:39 +0000 2019</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">source</Name>
+  <Value className="java.lang.String">&lt;a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android&lt;/a></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">retweet_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">retweeted</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">filter_level</Name>
+  <Value className="java.lang.String">low</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">is_quote_status</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">id_str</Name>
+  <Value className="java.lang.String">1106264141382197248</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">favorite_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">id</Name>
+  <Value className="java.lang.String">1106264141382197248</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">place</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>12</capacity><count>9</count><theKeys><string>country_code</string><string>country</string><string>full_name</string><string>bounding_box</string><string>place_type</string><string>name</string><string>attributes</string><string>id</string><string>url</string><null/><null/><null/></theKeys><theValues><string>ES</string><string>España</string><string>San Isidro, Madrid</string><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>coordinates</string><string>type</string><null/></theKeys><theValues><list><list><list><double>-3.740809</double><double>40.388539</double></list><list><double>-3.740809</double><double>40.405555</double></list><list><double>-3.715093</double><double>40.405555</double></list><list><double>-3.715093</double><double>40.388539</double></list></list></list><string>Polygon</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>neighborhood</string><string>San Isidro</string><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>0</count><theKeys><null/><null/><null/></theKeys><theValues><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><string>0125fb703f3cfc79</string><string>https://api.twitter.com/1.1/geo/id/0125fb703f3cfc79.json</string><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">quote_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">favorited</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">possibly_sensitive</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">truncated</Name>
+  <Value className="java.lang.Boolean">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">timestamp_ms</Name>
+  <Value className="java.lang.String">1552588899356</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">reply_count</Name>
+  <Value className="java.lang.Integer">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">entities</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>urls</string><string>hashtags</string><string>user_mentions</string><string>symbols</string><null/><null/></theKeys><theValues><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>6</capacity><count>4</count><theKeys><string>display_url</string><string>indices</string><string>expanded_url</string><string>url</string><null/><null/></theKeys><theValues><string>twitter.com/i/web/status/1…</string><list><int>116</int><int>139</int></list><string>https://twitter.com/i/web/status/1106264141382197248</string><string>https://t.co/JVjKU2rZuq</string><null/><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>0</int><int>11</int></list><string>Brazaletes</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl><gate.util.SimpleFeatureMapImpl serialization="custom"><gate.util.SimpleMapImpl><default><capacity>3</capacity><count>2</count><theKeys><string>indices</string><string>text</string><null/></theKeys><theValues><list><int>12</int><int>20</int></list><string>maories</string><null/></theValues></default></gate.util.SimpleMapImpl></gate.util.SimpleFeatureMapImpl></list><list/><list/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">display_text_range</Name>
+  <Value className="java.util.ArrayList" itemClassName="java.lang.Integer">0;140</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">user</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.0' encoding='UTF-8'?><gate.corpora.ObjectWrapper><value class="gate.util.SimpleFeatureMapImpl" serialization="custom"><gate.util.SimpleMapImpl><default><capacity>48</capacity><count>39</count><theKeys><string>utc_offset</string><string>friends_count</string><string>profile_image_url_https</string><string>listed_count</string><string>profile_background_image_url</string><string>default_profile_image</string><string>favourites_count</string><string>description</string><string>created_at</string><string>is_translator</string><string>profile_background_image_url_https</string><string>protected</string><string>screen_name</string><string>id_str</string><string>profile_link_color</string><string>translator_type</string><string>id</string><string>geo_enabled</string><string>profile_background_color</string><string>lang</string><string>profile_sidebar_border_color</string><string>profile_text_color</string><string>verified</string><string>profile_image_url</string><string>time_zone</string><string>url</string><string>contributors_enabled</string><string>profile_background_tile</string><string>profile_banner_url</string><string>statuses_count</string><string>follow_request_sent</string><string>followers_count</string><string>profile_use_background_image</string><string>default_profile</string><string>following</string><string>name</string><string>location</string><string>profile_sidebar_fill_color</string><string>notifications</string><null/><null/><null/><null/><null/><null/><null/><null/><null/></theKeys><theValues><null/><int>208</int><string>https://pbs.twimg.com/profile_images/919866933675208704/mfVqts66_normal.jpg</string><int>23</int><string>http://abs.twimg.com/images/themes/theme1/bg.png</string><boolean>false</boolean><int>204</int><null/><string>Wed Apr 17 06:25:16 +0000 2013</string><boolean>false</boolean><string>https://abs.twimg.com/images/themes/theme1/bg.png</string><boolean>false</boolean><string>moamadridtattoo</string><string>1358722034</string><string>000000</string><string>none</string><int>1358722034</int><boolean>true</boolean><string>000000</string><string>es</string><string>000000</string><string>000000</string><boolean>false</boolean><string>http://pbs.twimg.com/profile_images/919866933675208704/mfVqts66_normal.jpg</string><null/><string>http://www.moamadridtattoo.com</string><boolean>false</boolean><boolean>false</boolean><string>https://pbs.twimg.com/profile_banners/1358722034/1508148515</string><int>753</int><null/><int>146</int><boolean>false</boolean><boolean>false</boolean><null/><string>Moa Madrid Tattoo</string><string>Madrid, España</string><string>000000</string><null/><null/><null/><null/><null/><null/><null/><null/><null/><null/></theValues></default></gate.util.SimpleMapImpl></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Sentiment">
+</AnnotationSet>
+
+</GateDocument>

@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1106214761455337478.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106214761455337478.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -18,7 +22,7 @@
 </GateDocumentFeatures>
 <!-- The document content area with serialized nodes -->
 
-<TextWithNodes><Node id="0"/>@<Node id="1"/>_<Node id="2"/>Roberto<Node id="9"/>_C_<Node id="12"/> <Node id="13"/>Totalmente<Node id="23"/> <Node id="24"/>de<Node id="26"/> <Node id="27"/>acuerdo<Node id="34"/> <Node id="35"/> <Node id="36"/> <Node id="37"/>
+<TextWithNodes><Node id="0"/>@<Node id="1"/>_Roberto_C_<Node id="12"/> <Node id="13"/>Totalmente<Node id="23"/> <Node id="24"/>de<Node id="26"/> <Node id="27"/>acuerdo<Node id="34"/> <Node id="35"/> <Node id="36"/> <Node id="37"/>
 <Node id="38"/>
 <Node id="39"/></TextWithNodes>
 <!-- The default annotation set -->
@@ -87,7 +91,7 @@
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">spanish</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -354,67 +358,25 @@
   <Value className="java.lang.String">control</Value>
 </Feature>
 </Annotation>
-<Annotation Id="49" Type="Lookup" StartNode="2" EndNode="9">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">person_first</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">male</Value>
-</Feature>
-</Annotation>
-<Annotation Id="50" Type="Lookup" StartNode="24" EndNode="26">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">surname</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">prefix</Value>
-</Feature>
-</Annotation>
-<Annotation Id="51" Type="Lookup" StartNode="24" EndNode="26">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="52" Type="Split" StartNode="37" EndNode="39">
+<Annotation Id="49" Type="Split" StartNode="37" EndNode="39">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="53" Type="Sentence" StartNode="0" EndNode="34">
+<Annotation Id="50" Type="Sentence" StartNode="0" EndNode="34">
 </Annotation>
-<Annotation Id="59" Type="Person" StartNode="2" EndNode="23">
-<Feature>
-  <Name className="java.lang.String">firstName</Name>
-  <Value className="java.lang.String">Roberto</Value>
-</Feature>
+<Annotation Id="54" Type="Unknown" StartNode="13" EndNode="23">
 <Feature>
   <Name className="java.lang.String">rule</Name>
-  <Value className="java.lang.String">PersonFull</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">ruleFinal</Name>
-  <Value className="java.lang.String">PersonFinal</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">gender</Name>
-  <Value className="java.lang.String">male</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">surname</Name>
-  <Value className="java.lang.String">Totalmente</Value>
+  <Value className="java.lang.String">Unknown</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">kind</Name>
-  <Value className="java.lang.String">fullName</Value>
+  <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="60" Type="Unknown" StartNode="27" EndNode="34">
+<Annotation Id="55" Type="Unknown" StartNode="27" EndNode="34">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>

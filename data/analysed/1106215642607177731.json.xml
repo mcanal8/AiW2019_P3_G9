@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1106215642607177731.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106215642607177731.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -91,7 +95,7 @@
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">spanish</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -1052,59 +1056,31 @@
   <Value className="java.lang.String">number</Value>
 </Feature>
 </Annotation>
-<Annotation Id="155" Type="Lookup" StartNode="16" EndNode="18">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="156" Type="Lookup" StartNode="30" EndNode="32">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">surname</Value>
-</Feature>
-<Feature>
-  <Name className="java.lang.String">minorType</Name>
-  <Value className="java.lang.String">prefix</Value>
-</Feature>
-</Annotation>
-<Annotation Id="157" Type="Lookup" StartNode="30" EndNode="32">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="158" Type="Lookup" StartNode="75" EndNode="77">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="159" Type="Split" StartNode="66" EndNode="67">
+<Annotation Id="155" Type="Split" StartNode="66" EndNode="67">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="160" Type="Split" StartNode="97" EndNode="98">
+<Annotation Id="156" Type="Split" StartNode="97" EndNode="98">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="161" Type="Split" StartNode="106" EndNode="108">
+<Annotation Id="157" Type="Split" StartNode="106" EndNode="108">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="162" Type="Sentence" StartNode="0" EndNode="67">
+<Annotation Id="158" Type="Sentence" StartNode="0" EndNode="67">
 </Annotation>
-<Annotation Id="163" Type="Sentence" StartNode="68" EndNode="98">
+<Annotation Id="159" Type="Sentence" StartNode="68" EndNode="98">
 </Annotation>
-<Annotation Id="164" Type="Sentence" StartNode="99" EndNode="106">
+<Annotation Id="160" Type="Sentence" StartNode="99" EndNode="106">
 </Annotation>
-<Annotation Id="176" Type="Unknown" StartNode="22" EndNode="29">
+<Annotation Id="172" Type="Unknown" StartNode="22" EndNode="29">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1114,7 +1090,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="177" Type="Unknown" StartNode="61" EndNode="63">
+<Annotation Id="173" Type="Unknown" StartNode="61" EndNode="63">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1124,7 +1100,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="178" Type="Unknown" StartNode="69" EndNode="74">
+<Annotation Id="174" Type="Unknown" StartNode="69" EndNode="74">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1134,7 +1110,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="179" Type="Unknown" StartNode="78" EndNode="87">
+<Annotation Id="175" Type="Unknown" StartNode="78" EndNode="87">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>
@@ -1144,7 +1120,7 @@
   <Value className="java.lang.String">PN</Value>
 </Feature>
 </Annotation>
-<Annotation Id="180" Type="Unknown" StartNode="91" EndNode="97">
+<Annotation Id="176" Type="Unknown" StartNode="91" EndNode="97">
 <Feature>
   <Name className="java.lang.String">rule</Name>
   <Value className="java.lang.String">Unknown</Value>

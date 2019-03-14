@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Circles</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+	div.info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+	opacity: 0.8;
+	background-color: #7cafc0;
+    border: 1px solid #005d6d;
+
+	font-size: 18px;
+	font-family: 'Roboto','sans-serif';
+    }
+	
+    </style>
+  </head>
+  <body>
+<div id="map"></div>
+
+
+<div id="info" class="info">
+Click on the circle to see the information!
+</div>
+
+
+
+    <script>
+
+// This example creates circles on the map
+
+// First, create an object containing LatLng and population for each city.
+var citymap = {
+
+	//remember the format:
+	//id664873525564559360: {center: {lat: 41.40879414, lng: 2.1776104},color: '#0052A4',user: 'carlesapm',device: 'Instagram',time: 'Thu Nov 12 19:32:55 CET 2015',text: 'Aparicions celestials durant el rodatge de #emdicmanel #apmtv3 #estrelladammcat #igers #igersbcn� <a href="https://t.co/eYO1F5ySCp" target="_blank"> link </a>'},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105900193520726016: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'Beibs89 1105900193520726016 ·+',application: '???',time: 'Wed Mar 13 18:35:27 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: "Puedo resumir todo lo que he aprendido sobre la vida en tres palabras: la vida sigue."     (Y lo que me queda por ap… <a href="https://t.co/SQu3hTZPNX" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105904549120954368: {center: {lat: 40.44619324, lng: -3.69237901},color: '#FF00FF',user: 'kansmemo 1105904549120954368 ·+',application: '???',time: 'Wed Mar 13 18:52:45 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: I m at Metro Nuevos Ministerios - @metro_madrid in Madrid <a href="https://t.co/XMO8reFJgc" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+  id1105904621493485568: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1105904621493485568 ·+',application: '???',time: 'Wed Mar 13 18:53:03 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText:  Instagram y WhatsApp  acaba de convertirse en TT ocupando la 10ª posición en España #trndnl <a href="https://t.co/AxuJJQfQ0D" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105905418667200512: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'javier_dvl 1105905418667200512 ·+',application: '???',time: 'Wed Mar 13 18:56:13 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Sobre en Madrid, Spain <a href="https://t.co/8GE6BMpNzU" target="_blank"> link </a>',},
+
+
+
+
+  id1105905595339567104: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'javier_dvl 1105905595339567104 ·+',application: '???',time: 'Wed Mar 13 18:56:55 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Sobre. en Madrid, Spain <a href="https://t.co/FaxCDwcaqz" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105906359055323137: {center: {lat: 40.49134757, lng: -3.59153483},color: '#FF00FF',user: 'Maried129 1105906359055323137 ·+',application: '???',time: 'Wed Mar 13 18:59:57 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: I m at Terminal 4 - @aena in Madrid, Comunidad de Madrid <a href="https://t.co/nyF8LLEoIo" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105906777080717313: {center: {lat: 40.4167, lng: -3.70325},color: '#FF00FF',user: 'TrendsEspana 1105906777080717313 ·+',application: '???',time: 'Wed Mar 13 19:01:37 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: #facebookdown es ahora una tendencia en Spain  <a href="https://t.co/Px9A67wBNq" target="_blank"> link </a><a href="https://t.co/oDy6HR0Vfc" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105912167759470592: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1105912167759470592 ·+',application: '???',time: 'Wed Mar 13 19:23:02 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: #AlejandroContigo acaba de convertirse en TT ocupando la 10ª posición en España. Más en <a href="https://t.co/K5DFqqcseW" target="_blank"> link </a><a href="https://t.co/mgtF32iZUl" target="_blank"> link </a>',},
+  id1105912241289940994: {center: {lat: 40.36437607, lng: -3.69836283},color: '#FF00FF',user: 'InformacionDGT 1105912241289940994 ·+',application: '???',time: 'Wed Mar 13 19:23:19 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: #RETENCIÓN nivel AMARILLO en AUTOPISTA / AUTOVÍA #M40 (pk 23 al 20 creciente) MADRID #DGTMadrid #DGT <a href="https://t.co/LXN9rETZcG" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105921485305188357: {center: {lat: 40.4263, lng: -3.69556},color: '#FF00FF',user: 'david_halford 1105921485305188357 ·+',application: '???',time: 'Wed Mar 13 20:00:03 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Drinking a Tropical Explorers by @Freaksbrewing at @madcafegrill — <a href="https://t.co/KAbj2e9hVg" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1105931042060288000: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1105931042060288000 ·+',application: '???',time: 'Wed Mar 13 20:38:02 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 1, Urls: 0, NewText: #BarçaOL acaba de convertirse en TT ocupando la 9ª posición en España. Más en <a href="https://t.co/K5DFqqcseW" target="_blank"> link </a>#trndnl <a href="https://t.co/CS2EgcEQob" target="_blank"> link </a>',},
+  id1105931050960576512: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1105931050960576512 ·+',application: '???',time: 'Wed Mar 13 20:38:04 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText:  Neuer  acaba de convertirse en TT ocupando la 6ª posición en España. Más en <a href="https://t.co/K5DFqqcseW" target="_blank"> link </a>#trndnl <a href="https://t.co/vds8t8DzQG" target="_blank"> link </a>',},
+  id1105931059223355392: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1105931059223355392 ·+',application: '???',time: 'Wed Mar 13 20:38:06 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText:  Mané  acaba de convertirse en TT ocupando la 4ª posición en España. Más en <a href="https://t.co/K5DFqqcseW" target="_blank"> link </a>#trndnl <a href="https://t.co/ShVoD8GlG8" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1106214706166067205: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106214706166067205 ·+',application: '???',time: 'Thu Mar 14 15:25:13 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/kXUGW9PRvk" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+  id1106214906070732801: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106214906070732801 ·+',application: '???',time: 'Thu Mar 14 15:26:00 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/AXa9A3jgdt" target="_blank"> link </a>',},
+
+
+
+
+
+
+  id1106215135356600320: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106215135356600320 ·+',application: '???',time: 'Thu Mar 14 15:26:55 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/G9FsEbyz15" target="_blank"> link </a>',},
+  id1106215160505683968: {center: {lat: 40.42905676, lng: -3.67458922},color: '#FF00FF',user: 'MariaRenilla 1106215160505683968 ·+',application: '???',time: 'Thu Mar 14 15:27:01 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Arrancamos        un éxito total #equipazo  . . #damnimvisual #redbilityteam #redbility #visual #ux #ui #strategy… <a href="https://t.co/9kVGOjUoQA" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+  id1106215388948226048: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1106215388948226048 ·+',application: '???',time: 'Thu Mar 14 15:27:55 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: #AllTheLies acaba de convertirse en TT ocupando la 10ª posición en España. Más en <a href="https://t.co/K5DFqqcseW" target="_blank"> link </a>#trndnl <a href="https://t.co/Hs3Qtuk2RN" target="_blank"> link </a>',},
+
+
+
+
+  id1106215498776219649: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106215498776219649 ·+',application: '???',time: 'Thu Mar 14 15:28:22 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/H3rdwbObnJ" target="_blank"> link </a>',},
+
+
+
+
+  id1106215642607177731: {center: {lat: 40.4203, lng: -3.7058},color: '#FF00FF',user: 'trendinaliaES 1106215642607177731 ·+',application: '???',time: 'Thu Mar 14 15:28:56 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: @caarrrlllloooo la 1ª mención de #TodoEsMentira48 aparece en tu TL. ¡Ahora es Tendencia en España! #trndnl ',},
+
+
+
+
+  id1106215778809008133: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106215778809008133 ·+',application: '???',time: 'Thu Mar 14 15:29:28 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/nuxUGH6JqR" target="_blank"> link </a>',},
+
+
+  id1106215803060396032: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'belmartina_ 1106215803060396032 ·+',application: '???',time: 'Thu Mar 14 15:29:34 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Capitana Marvel es una cinta para los que disfrutan del género de superhéroes y también para los que solo busquen p… <a href="https://t.co/bdi7RJV4xW" target="_blank"> link </a>',},
+
+
+
+
+  id1106216097991266306: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106216097991266306 ·+',application: '???',time: 'Thu Mar 14 15:30:44 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/HZ1ErfiOyk" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+  id1106216365004734464: {center: {lat: 40.43766848, lng: -3.69317341},color: '#FF00FF',user: 'JardinOrfila 1106216365004734464 ·+',application: '???',time: 'Thu Mar 14 15:31:48 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Muchas gracias @ceagastronomia por nominarnos en varias categorías y otorgarnos el #premio al #mejor postre y nuest… <a href="https://t.co/fReLHD39lZ" target="_blank"> link </a>',},
+
+
+
+
+
+  id1106216462098800645: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106216462098800645 ·+',application: '???',time: 'Thu Mar 14 15:32:11 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/3vqtZMucPZ" target="_blank"> link </a>',},
+
+
+
+  id1106216584727527424: {center: {lat: 40.5, lng: -3.66666667},color: '#FF00FF',user: 'MadridMotorS 1106216584727527424 ·+',application: '???',time: 'Thu Mar 14 15:32:40 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Asistimos al Prestigioso Salón Madrileño de @Motortec_AM en feriademadrid 2019 #MadridMotorSinMotortecAM… <a href="https://t.co/EZqD7zkiEJ" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1106252622116372485: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'agu69 1106252622116372485 ·+',application: '???',time: 'Thu Mar 14 17:55:52 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Acaba de publicar una foto en Madrid, Spain <a href="https://t.co/PlvHvGkiU4" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1106253237399646208: {center: {lat: 40.47271729, lng: -3.76021123},color: '#FF00FF',user: 'InformacionDGT 1106253237399646208 ·+',application: '???',time: 'Thu Mar 14 17:58:19 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: #RETENCIÓN nivel AMARILLO en AUTOPISTA / AUTOVÍA #M40 (pk 50 al 58 decreciente) MADRID #DGTMadrid #DGT <a href="https://t.co/bLMmfAS9sr" target="_blank"> link </a>',},
+
+  id1106253264813768710: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'armando_dlu 1106253264813768710 ·+',application: '???',time: 'Thu Mar 14 17:58:26 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Paseando por Madrid encuentras gente extraordinaria  haciendo cosas extraordinarias  #bnw_unlimited #bnw_world… <a href="https://t.co/MVq0x36N8Y" target="_blank"> link </a>',},
+  id1106253291896213504: {center: {lat: 40.41976938, lng: -3.75732422},color: '#FF00FF',user: 'PairsonnalitesE 1106253291896213504 ·+',application: '???',time: 'Thu Mar 14 17:58:32 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: ES-DESK — ¿Quién está detrás de la muerte de la concejala brasileña Marielle Franco? <a href="https://t.co/xTJwbx7t13" target="_blank"> link </a>',},
+  id1106253292949008386: {center: {lat: 40.41976938, lng: -3.75732422},color: '#FF00FF',user: 'PairsonnalitesE 1106253292949008386 ·+',application: '???',time: 'Thu Mar 14 17:58:32 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: ES-DESK — 10 curiosidades de "Will and Grace" que debes saber <a href="https://t.co/0Y0gmapq97" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1106254188751650816: {center: {lat: 40.45708321, lng: -3.66746508},color: '#FF00FF',user: 'martinvelascob 1106254188751650816 ·+',application: '???',time: 'Thu Mar 14 18:02:06 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: #adgtalk  #18 charla de lawebdecanada sobre los #videoclips de @rosaliavt #gracias @esne_es ! #SomosVideo… <a href="https://t.co/u944aVZjGq" target="_blank"> link </a>',},
+
+  id1106254208682999808: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'ales_livi_gh 1106254208682999808 ·+',application: '???',time: 'Thu Mar 14 18:02:11 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Gran equipo... Así se entrena duro y agusto       bodyextremefitness karimbenzema #alessio @Cristian13vp javier.atala… <a href="https://t.co/PGXhte3Tlw" target="_blank"> link </a>',},
+
+
+
+
+
+
+  id1106254365583724544: {center: {lat: 40.4, lng: -3.68333},color: '#FF00FF',user: 'albertologia_ag 1106254365583724544 ·+',application: '???',time: 'Thu Mar 14 18:02:48 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Hoy es el día de Pi, el día de muchas fechas. Hace un año se despedía una mente brillante que nos trajo algo de luz… <a href="https://t.co/3Osqeox5Wf" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1106255265433833472: {center: {lat: 40.42816078, lng: -3.72996318},color: '#FF00FF',user: 'cluisfluis 1106255265433833472 ·+',application: '???',time: 'Thu Mar 14 18:06:23 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText:    . How to know when to change your look, change the cut or color, even your style! what you should do and how you… <a href="https://t.co/1vEUxsGO4D" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+  id1106256462236520450: {center: {lat: 40.415556, lng: -3.714444},color: '#FF00FF',user: 'sharpasabrick 1106256462236520450 ·+',application: '???',time: 'Thu Mar 14 18:11:08 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: Madrid is full of interesting sights, but we weren t expecting this cathedral to be so beautiful! ✌️        ️‍   @ Cated… <a href="https://t.co/Gc3Uyu6KpP" target="_blank"> link </a>',},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  id1106261158569410560: {center: {lat: 40.46727, lng: -3.63972},color: '#FF00FF',user: 'LMontero_5 1106261158569410560 ·+',application: '???',time: 'Thu Mar 14 18:29:48 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: ✖️Dotwork mandala✖️ Hecho en cactus_tattoo_madrid  Done in cactus_tattoo_madrid    • •    WhatsApp: 658381167    ainek… <a href="https://t.co/aQDsuIbN9e" target="_blank"> link </a>',},
+
+
+  id1106262352775864320: {center: {lat: 40.46727, lng: -3.63972},color: '#FF00FF',user: 'LMontero_5 1106262352775864320 ·+',application: '???',time: 'Thu Mar 14 18:34:32 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: ✖️TIGRE ✖️ Hecho en cactus_tattoo_madrid  Done in cactus_tattoo_madrid    • •    WhatsApp: 658381167    ainek_artattoo… <a href="https://t.co/zpMexIxfKW" target="_blank"> link </a>',},
+
+  id1106263629542899712: {center: {lat: 40.46727, lng: -3.63972},color: '#FF00FF',user: 'LMontero_5 1106263629542899712 ·+',application: '???',time: 'Thu Mar 14 18:39:37 +0000 2019',text: '(SENT: NEU, Locations: 0, Organizations: 0, Persons: 0, Urls: 0, NewText: ✖️PEONÍA✖️ Hecho en cactus_tattoo_madrid  Done in cactus_tattoo_madrid    • •    WhatsApp: 658381167    ainek_artattoo… <a href="https://t.co/c3YafPnvJn" target="_blank"> link </a>',},
+
+
+
+
+
+
+};
+
+function showNewRect(user, device, time, text) {
+  	//alert(this.fillColor);
+	//alert(x);
+	document.getElementById('info').innerHTML = 
+							"<b>User:</b> <a href=\"https://twitter.com/"+user+"\" target=\"_blank\">"+user+"</a>"+
+							'<br><b>Application: </b>' + device +
+							'<br><b>Time: </b>' + time +
+							'<br><b>Text: </b>' + text;
+                                      
+}
+
+function initMap() {
+  // Create the map.
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13,
+    center: {lat: 40.37872, lng: -3.751144},
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  // Construct the circle for each value in citymap.
+  // Note: We scale the area of the circle based on the population.
+  for (var city in citymap) {
+    // Add the circle for this city to the map.
+    var cityCircle = new google.maps.Circle({
+      strokeColor: citymap[city].color,
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: citymap[city].color,
+      fillOpacity: 0.35,
+      map: map,
+      center: citymap[city].center,
+      radius: 50
+    });
+
+	//cityCircle.addListener('click', showNewRect);
+
+ 	var createCallback = function(innerCity){
+    	return function() {showNewRect(	citymap[innerCity].user,
+										citymap[innerCity].device,
+										citymap[innerCity].time, 
+										citymap[innerCity].text);};
+	};
+
+    cityCircle.addListener("click", createCallback(city), false);
+
+  }
+
+}
+
+var createAdd = function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+};
+
+var add = createAdd();
+
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoS4fjZzkelofeNudCU8CMejRZXiwiLSg&signed_in=true&libraries=visualization&callback=initMap"></script>
+  </body>
+</html>

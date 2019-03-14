@@ -5,7 +5,11 @@
 <GateDocumentFeatures>
 <Feature>
   <Name className="java.lang.String">gate.SourceURL</Name>
-  <Value className="java.lang.String">file:/home/victor/Desktop/testPracticaAiw/1106215397920043015.json</Value>
+  <Value className="java.lang.String">file:/C:/Users/U124317/Documents/NetBeansProjects/AiW2019_P3_G9/data/json/1106215397920043015.json</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">spanish</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">MimeType</Name>
@@ -88,7 +92,7 @@
 </Feature>
 <Feature>
   <Name className="java.lang.String">lang</Name>
-  <Value className="java.lang.String">spanish</Value>
+  <Value className="java.lang.String">es</Value>
 </Feature>
 <Feature>
   <Name className="java.lang.String">quote_count</Name>
@@ -728,45 +732,27 @@ Nota: retuitear no es estar de acuerdo.</string><string>Wed Dec 29 02:43:38 +000
   <Value className="java.lang.String">control</Value>
 </Feature>
 </Annotation>
-<Annotation Id="114" Type="Lookup" StartNode="39" EndNode="41">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="115" Type="Lookup" StartNode="46" EndNode="51">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">jobtitle</Value>
-</Feature>
-</Annotation>
-<Annotation Id="116" Type="Lookup" StartNode="66" EndNode="68">
-<Feature>
-  <Name className="java.lang.String">majorType</Name>
-  <Value className="java.lang.String">country_code</Value>
-</Feature>
-</Annotation>
-<Annotation Id="117" Type="Split" StartNode="27" EndNode="28">
+<Annotation Id="114" Type="Split" StartNode="27" EndNode="28">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="118" Type="Split" StartNode="82" EndNode="83">
+<Annotation Id="115" Type="Split" StartNode="82" EndNode="83">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">internal</Value>
 </Feature>
 </Annotation>
-<Annotation Id="119" Type="Split" StartNode="83" EndNode="85">
+<Annotation Id="116" Type="Split" StartNode="83" EndNode="85">
 <Feature>
   <Name className="java.lang.String">kind</Name>
   <Value className="java.lang.String">external</Value>
 </Feature>
 </Annotation>
-<Annotation Id="120" Type="Sentence" StartNode="0" EndNode="28">
+<Annotation Id="117" Type="Sentence" StartNode="0" EndNode="28">
 </Annotation>
-<Annotation Id="121" Type="Sentence" StartNode="29" EndNode="83">
+<Annotation Id="118" Type="Sentence" StartNode="29" EndNode="83">
 </Annotation>
 </AnnotationSet>
 

@@ -8,6 +8,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Map;
 
 public class CreateMapToModify {
@@ -99,6 +100,7 @@ public class CreateMapToModify {
                     coordinates = (ArrayList<Double>) mp.get("coordinates");
                     lati = coordinates.get(0);
                     longi = coordinates.get(1);
+                    System.out.println(lati);
                     if(d.getAnnotations().get("Locations").size() > 0) {
                         System.out.println("Hola");
                     }
@@ -106,7 +108,7 @@ public class CreateMapToModify {
                     num_orgs = getNumberOrganization(d);
                     num_pers = getNumberPerson(d);
                     num_urls = getNumberUrl(d);
-                    sentiLabel = getSentiment(d);
+                    sentiLabel = Sentiment(d);
 
                     //---- HEAT MAP ----
                     newTextHeat = "new google.maps.LatLng(" + lati + "," + longi + "),";
@@ -157,8 +159,8 @@ public class CreateMapToModify {
 
             String fs = System.getProperty("file.separator");
 
-            String inputFileHeat = "maps"+fs+ "heat-map-toronto.html";
-            String inputFileCircle = "maps"+fs+ "circle-map-toronto.html";
+            String inputFileHeat = "maps"+fs+ "heat-map-madrid.html";
+            String inputFileCircle = "maps"+fs+ "circle-map-madrid.html";
 
             //other if here to decide which kind of map to create
             maps.MapsUtils.createNewMap(inputFileHeat, textToWriteHeat.toString());
@@ -184,6 +186,41 @@ public class CreateMapToModify {
 
     private static int getNumberOfLocation(Document document) {
         return document.getAnnotations().get("Location").size();
+    }
+    
+    public static String Sentiment(Document doc) {
+        String sentiment="";
+        int senti=0;
+        AnnotationSet lookups=doc.getAnnotations("Sentiment").get("Lookup");
+        Annotation lookup;
+        FeatureMap fm;
+        Iterator<Annotation> ite=lookups.iterator();
+        String label;
+        int pos = 0;
+        int neg = 0;
+                
+        while(ite.hasNext()) {
+            lookup = ite.next();
+            fm = lookup.getFeatures();
+            label = fm.get("majorType").toString();
+            // compute sentiment value
+            if (label.equals("positive"))
+                pos = pos+1; 
+            else if (label.equals("negative"))
+                neg = neg+1;
+        }
+        senti = pos - neg;
+        // compute sentiment label according to senti value
+        if (senti < 0){
+            sentiment = "NEG";
+        }
+        else if (senti > 0){
+            sentiment = "POS";
+        }
+        else if (senti == 0){
+            sentiment = "NEU";
+        }
+        return sentiment;
     }
 
     private static String getSentiment(Document document) {

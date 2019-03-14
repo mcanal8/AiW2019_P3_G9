@@ -1,0 +1,2 @@
+Madrid Weather: current weather in Madrid: clear sky, 16°C
+27% humidity, wind 2kmh, pressure 1027mb

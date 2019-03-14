@@ -1,210 +1,204 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 package mapUtils;
 
-import gate.Annotation;
-import gate.AnnotationSet;
-import gate.Corpus;
-import gate.Document;
-import gate.Factory;
-import gate.FeatureMap;
-import gate.Gate;
-import gate.creole.ResourceInstantiationException;
+import gate.*;
 import gate.util.GateException;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
+import org.springframework.util.Assert;
+
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
-import java.io.Writer;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import twitter4j.GeoLocation;
-import twitter4j.Status;
-import twitter4j.TwitterException;
-import twitter4j.json.DataObjectFactory;
 
 public class CreateMapToModify {
 
-       
-	@SuppressWarnings("deprecation")
-	public static void main(String[] args) {
+    private static final String USER_PROJECT_DIRECTORY = System.getProperty("user.dir");
+    private static final String USER_HOME_DIRECTORY = System.getProperty("user.home");
+    private static final String POS = "positive";
+    private static final String NEG = "negative";
+    private static final String NEU = "neutral";
 
-		try {
+    @SuppressWarnings("deprecation")
+    public static void main(String[] args) {
 
-                    if(Gate.getGateHome() == null) {
-                        //Gate.setGateHome(new File(USER_HOME_DIRECTORY + "/GATE_Developer_8.0"));
-                        //Gate.setGateHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN"));
-                        Gate.setGateHome(new File("D:\\Program Files\\GATE_Developer_8.0"));
-                    }
+        try {
 
-                    if(Gate.getPluginsHome() == null) {
-                        //Gate.setPluginsHome(new File(USER_HOME_DIRECTORY + "/GATE_Developer_8.0/plugins"));
-                        //Gate.setPluginsHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN\\plugins"));
-                        Gate.setPluginsHome(new File("D:\\Program Files\\GATE_Developer_8.0\\plugins"));
-                    }
-                    Gate.init();
-                    String encoding = "UTF-8";
-                    File inDir=new File("./data/analysed");
-                    File[] flist=inDir.listFiles();
-                    String floc;
-               
-                 
-                    Document d;
-                   
-                    Annotation tweet;
-                    AnnotationSet tweets;
-                    AnnotationSet locations;
-                    AnnotationSet lookups;
-                    AnnotationSet orgs;
-                    AnnotationSet URLs;
-                    String app="???";
-                    AnnotationSet persons;
-                    FeatureMap fm;
-                    
-                    Map<Object,Object> mp;
-                    Map<Object,Object> mp_usr;
-                    ArrayList<Double> coordinates;
-                    Double lati, longi;
-                    String usrName;
-                    String id;
-                    String creation;
-                    String text;
-                    int sent;
-                    int num_locs=0;
-                    int num_orgs=0;
-                    int num_urls=0;
-                    int num_pers=0;
-                    String newTextHeat = "";
-                    String newTextCircle = "";
-                    String color;
-                    color = "#FF00FF";
-                    String posColor="....";
-                    String negColor="....";
-                    String neuColor="....";
-                    String textToWriteHeat = "";
-                    String textToWriteCircle = "";
-                    String sentiLabel;
-                    for(int f=0;f<flist.length;f++){
-                        newTextHeat = "";
-                        newTextCircle= "";
-                        floc=flist[f].getAbsolutePath();
-                        System.out.println(floc);
-                        d=Factory.newDocument(new URL("file:///"+floc), encoding);
-                        tweets=d.getAnnotations("Original markups").get("Tweet");
-                        tweet=tweets.iterator().next();
-                        fm=tweet.getFeatures();
-                        mp=(Map<Object, Object>) fm.get("geo");
-                        mp_usr=(Map<Object, Object>) fm.get("user");
-                        id=(String) fm.get("id");
-                        creation=(String) fm.get("created_at");
-                        usrName=(String) mp_usr.get("screen_name");
-                        
-                        // TO COMPLETE: extract app used to tweet!!!
-                        
-                        
-                        text=d.getContent().toString();
-                        if(mp!=null) {
-                            coordinates=(ArrayList<Double>)mp.get("coordinates");
-                            lati=coordinates.get(0);
-                            longi=coordinates.get(1);
-                            num_locs=NumLocs(d);
-                            // TO COMPLETE compute number of URLs
-                            // TO COMPLETE compute number of Person(s)
-                            // TO COMPLETE compute number of Organization(s)
-                            
-                            // TO COMPLETE  Compute sentiment of tweet
-                           
-                            sentiLabel=Sentiment(d);
-                            
-                            //---- HEAT MAP ----
-                            newTextHeat = "new google.maps.LatLng("+lati+","+longi+"),";
-                            
-                            //---- CRCL MAP ----
-                           
-                            String newtext = "";
-                            text=text.replace("\n", " ").replace("'", " ");
-                            for(String token : text.split(" ")){
-                                    if(token.contains("http")) {
-                                            newtext += "<a href=\""+token+"\" target=\"_blank\"> link </a>";
-                                    }
-                                    else newtext += token + " ";
-                            }
-                            
-                            
-                            
-                            // TO COMPLETE  change color according to sentiment
-                            // IF CODE HERE 
-                                   
-                          
-                            
-                            newTextCircle = "  id"+ id +": {center: {lat: "+ lati +", lng: "+longi+"},"+
-                                    
-							"color: '" +color+"',"+
-							"user: '"  +usrName+" "+id+" ·+',"+
-                                    "application: '"+app+"',"+
-							"time: '"  +creation+"',"+
-							"text: '(SENT: "+sentiLabel+", Locations:....) "  +newtext+"',"+
-                                                    
-							"},";
-                                                
-                        }
-                        textToWriteHeat=textToWriteHeat +  newTextHeat + "\n";
-                        textToWriteCircle=textToWriteCircle +  newTextCircle + "\n";
-                    }
-                    
-                    String fs = System.getProperty("file.separator");
-                    
-                   
-                    
-                    String inputFileHeat = "maps"+fs+ "heat-map-toronto.html";
-                    String inputFileCircle = "maps"+fs+ "circle-map-toronto.html";
-                    
-                  
-                              
-                        
-                        //other if here to decide which kind of map to create
-                        maps.MapsUtils.createNewMap(inputFileHeat, textToWriteHeat);
-                        maps.MapsUtils.createNewMap(inputFileCircle, textToWriteCircle);
-                        
-                } catch (ResourceInstantiationException ex) {
-              ex.printStackTrace();
-            } catch (MalformedURLException ex) {
-                ex.printStackTrace();
-            } catch (GateException ex) {
-                ex.printStackTrace();
+            if(Gate.getGateHome() == null) {
+                Gate.setGateHome(new File(USER_HOME_DIRECTORY + "/GATE_Developer_8.0"));
+                //Gate.setGateHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN"));
+                //Gate.setGateHome(new File("D:\\Program Files\\GATE_Developer_8.0"));
             }
-	}
-        // EXAMPLE OF EXTRACTION
-        public static int NumLocs(Document doc) {
-            return doc.getAnnotations().get("Location").size();
+            if(Gate.getPluginsHome() == null) {
+                Gate.setPluginsHome(new File(USER_HOME_DIRECTORY + "/GATE_Developer_8.0/plugins"));
+                //Gate.setPluginsHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN\\plugins"));
+                //Gate.setPluginsHome(new File("D:\\Program Files\\GATE_Developer_8.0\\plugins"));
+            }
+            Gate.init();
+            String encoding = "UTF-8";
+            File inDir=new File("./data/analysed");
+            File[] flist=inDir.listFiles();
+            String floc;
+
+            Document d;
+
+            Annotation tweet;
+            AnnotationSet tweets;
+            AnnotationSet locations;
+            AnnotationSet lookups;
+            AnnotationSet orgs;
+            AnnotationSet URLs;
+            String app="???";
+            AnnotationSet persons;
+            FeatureMap fm;
+
+            Map<Object,Object> mp;
+            Map<Object,Object> mp_usr;
+            ArrayList<Double> coordinates;
+            Double lati, longi;
+            String usrName;
+            String id;
+            String creation;
+            String text;
+            int sent;
+            int num_locs=0;
+            int num_orgs=0;
+            int num_urls=0;
+            int num_pers=0;
+            String newTextHeat = "";
+            String newTextCircle = "";
+            String color;
+            color = "#FF00FF";
+            String posColor = "#39d639";
+            String negColor = "#c1140b";
+            String neuColor = "#d9e01f";
+            StringBuilder textToWriteHeat = new StringBuilder();
+            StringBuilder textToWriteCircle = new StringBuilder();
+            String sentiLabel;
+
+            assert flist != null;
+
+            for (File file : flist) {
+                newTextHeat = "";
+                newTextCircle = "";
+                floc = file.getAbsolutePath();
+                System.out.println(floc);
+                d = Factory.newDocument(new URL("file:///" + floc), encoding);
+
+                // Document
+                tweets = d.getAnnotations("Original markups").get("Tweet");
+                tweet = tweets.iterator().next();
+                fm = tweet.getFeatures();
+                mp = (Map<Object, Object>) fm.get("geo");
+                mp_usr = (Map<Object, Object>) fm.get("user");
+                id = (String) fm.get("id");
+                creation = (String) fm.get("created_at");
+                usrName = (String) mp_usr.get("screen_name");
+
+                text = d.getContent().toString();
+                if (mp != null) {
+                    coordinates = (ArrayList<Double>) mp.get("coordinates");
+                    lati = coordinates.get(0);
+                    longi = coordinates.get(1);
+                    if(d.getAnnotations().get("Locations").size() > 0) {
+                        System.out.println("Hola");
+                    }
+                    num_locs = getNumberOfLocation(d);
+                    num_orgs = getNumberOrganization(d);
+                    num_pers = getNumberPerson(d);
+                    num_urls = getNumberUrl(d);
+                    sentiLabel = getSentiment(d);
+
+                    //---- HEAT MAP ----
+                    newTextHeat = "new google.maps.LatLng(" + lati + "," + longi + "),";
+
+                    //---- CRCL MAP ----
+
+                    StringBuilder newtext = new StringBuilder();
+                    text = text.replace("\n", " ").replace("'", " ");
+                    for (String token : text.split(" ")) {
+                        if (token.contains("http")) {
+                            newtext.append("<a href=\"").append(token).append("\" target=\"_blank\"> link </a>");
+                        } else newtext.append(token).append(" ");
+                    }
+
+                    Assert.notNull(sentiLabel);
+
+                    switch (sentiLabel){
+                        case POS:
+                            color = posColor;
+                            break;
+                        case NEG:
+                            color = negColor;
+                            break;
+                        case NEU:
+                            color = neuColor;
+                            break;
+                            default:
+                                break;
+                    }
+
+                    newTextCircle = "  id" + id + ": {center: {lat: " + lati + ", lng: " + longi + "}," +
+                            "color: '" + color + "'," +
+                            "user: '" + usrName + " " + id + " ·+'," +
+                            "application: '" + app + "'," +
+                            "time: '" + creation + "'," +
+                            "text: '(SENT: " + sentiLabel +
+                            ", Locations: " + num_locs +
+                            ", Organizations: " + num_orgs +
+                            ", Persons: " + num_pers +
+                            ", Urls: " + num_urls +
+                            ", NewText: " + newtext + "'," +
+                            "},";
+
+                }
+                textToWriteHeat.append(newTextHeat).append("\n");
+                textToWriteCircle.append(newTextCircle).append("\n");
+            }
+
+            String fs = System.getProperty("file.separator");
+
+            String inputFileHeat = "maps"+fs+ "heat-map-toronto.html";
+            String inputFileCircle = "maps"+fs+ "circle-map-toronto.html";
+
+            //other if here to decide which kind of map to create
+            maps.MapsUtils.createNewMap(inputFileHeat, textToWriteHeat.toString());
+            maps.MapsUtils.createNewMap(inputFileCircle, textToWriteCircle.toString());
+
+        } catch (GateException | MalformedURLException ex) {
+            ex.printStackTrace();
         }
-        // TO COMPLETE
-        // Returns POS, NEG o NEU
-        public static String Sentiment(Document doc) {
-            String sentiment="???";
-           
-              
-  
-            // TO COMPLETE compute sentiment label according to senti value
-            
-            return sentiment;
+    }
+
+    private static int getNumberUrl(Document document) {
+        return document.getAnnotations().get("Url").size();
+
+    }
+
+    private static int getNumberOrganization(Document document) {
+        return document.getAnnotations().get("Organization").size();
+    }
+
+    private static int getNumberPerson(Document document) {
+        return document.getAnnotations().get("Person").size();
+    }
+
+    private static int getNumberOfLocation(Document document) {
+        return document.getAnnotations().get("Location").size();
+    }
+
+    private static String getSentiment(Document document) {
+
+        String sentiment = String.valueOf(document.getAnnotations().get("Sentiment"));
+
+        switch (sentiment) {
+            case POS:
+                return POS;
+            case NEG:
+                return NEG;
+            case NEU:
+                return NEU;
+            default:
+                return null;
         }
+    }
 }

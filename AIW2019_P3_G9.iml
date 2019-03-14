@@ -64,4 +64,8 @@
     <orderEntry type="library" name="Maven: org.twitter4j:twitter4j-media-support:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.twitter4j:twitter4j-examples:4.0.2" level="project" />
   </component>
+  <component name="sonarModuleSettings">
+    <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
+    <option name="serverName" value="&lt;PROJECT&gt;" />
+  </component>
 </module>

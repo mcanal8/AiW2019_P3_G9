@@ -15,9 +15,11 @@ public class CreateMapToModify {
 
     private static final String USER_PROJECT_DIRECTORY = System.getProperty("user.dir");
     private static final String USER_HOME_DIRECTORY = System.getProperty("user.home");
-    private static final String POS = "positive";
-    private static final String NEG = "negative";
-    private static final String NEU = "neutral";
+    private static final String POSITIVE = "POSITIVE";
+    private static final String POS = "POS";
+    private static final String NEGATIVE = "NEGATIVE";
+    private static final String NEG = "NEG";
+    private static final String NEU = "NEU";
 
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
@@ -34,37 +36,32 @@ public class CreateMapToModify {
                 //Gate.setPluginsHome(new File("C:\\Users\\u124275\\Desktop\\gate-8.0-build4825-BIN\\plugins"));
                 //Gate.setPluginsHome(new File("D:\\Program Files\\GATE_Developer_8.0\\plugins"));
             }
+
             Gate.init();
             String encoding = "UTF-8";
-            File inDir=new File("./data/analysed");
-            File[] flist=inDir.listFiles();
+            File inDir = new File("./data/analysed2");
+            File[] flist = inDir.listFiles();
             String floc;
 
             Document d;
-
             Annotation tweet;
             AnnotationSet tweets;
-            AnnotationSet locations;
-            AnnotationSet lookups;
-            AnnotationSet orgs;
-            AnnotationSet URLs;
             String app="???";
-            AnnotationSet persons;
             FeatureMap fm;
 
             Map<Object,Object> mp;
-            Map<Object,Object> mp_usr;
+            Map<Object,Object> mpUsr;
             ArrayList<Double> coordinates;
-            Double lati, longi;
+            Double lati;
+            Double longi;
             String usrName;
             String id;
             String creation;
             String text;
-            int sent;
-            int num_locs=0;
-            int num_orgs=0;
-            int num_urls=0;
-            int num_pers=0;
+            int num_locs;
+            int num_orgs;
+            int num_urls;
+            int num_pers;
             String newTextHeat = "";
             String newTextCircle = "";
             String color;
@@ -74,7 +71,8 @@ public class CreateMapToModify {
             String neuColor = "#d9e01f";
             StringBuilder textToWriteHeat = new StringBuilder();
             StringBuilder textToWriteCircle = new StringBuilder();
-            String sentiLabel;
+            String sentiLabel = null;
+            int numOfGeoFound = 0;
 
             assert flist != null;
 
@@ -90,25 +88,29 @@ public class CreateMapToModify {
                 tweet = tweets.iterator().next();
                 fm = tweet.getFeatures();
                 mp = (Map<Object, Object>) fm.get("geo");
-                mp_usr = (Map<Object, Object>) fm.get("user");
+                mpUsr = (Map<Object, Object>) fm.get("user");
                 id = (String) fm.get("id");
                 creation = (String) fm.get("created_at");
-                usrName = (String) mp_usr.get("screen_name");
+                usrName = (String) mpUsr.get("screen_name");
 
                 text = d.getContent().toString();
                 if (mp != null) {
                     coordinates = (ArrayList<Double>) mp.get("coordinates");
                     lati = coordinates.get(0);
                     longi = coordinates.get(1);
-                    System.out.println(lati);
-                    if(d.getAnnotations().get("Locations").size() > 0) {
-                        System.out.println("Hola");
-                    }
+                    numOfGeoFound++;
+                    System.out.println(numOfGeoFound + " of " + flist.length);
+
                     num_locs = getNumberOfLocation(d);
                     num_orgs = getNumberOrganization(d);
                     num_pers = getNumberPerson(d);
                     num_urls = getNumberUrl(d);
-                    sentiLabel = Sentiment(d);
+
+                    try {
+                        sentiLabel = getSentiment(d);
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
 
                     //---- HEAT MAP ----
                     newTextHeat = "new google.maps.LatLng(" + lati + "," + longi + "),";
@@ -125,7 +127,7 @@ public class CreateMapToModify {
 
                     Assert.notNull(sentiLabel);
 
-                    switch (sentiLabel){
+                    switch (sentiLabel) {
                         case POS:
                             color = posColor;
                             break;
@@ -163,8 +165,8 @@ public class CreateMapToModify {
             String inputFileCircle = "maps"+fs+ "circle-map-madrid.html";
 
             //other if here to decide which kind of map to create
-            maps.MapsUtils.createNewMap(inputFileHeat, textToWriteHeat.toString());
-            maps.MapsUtils.createNewMap(inputFileCircle, textToWriteCircle.toString());
+            MapsUtils.createNewMap(inputFileHeat, textToWriteHeat.toString());
+            MapsUtils.createNewMap(inputFileCircle, textToWriteCircle.toString());
 
         } catch (GateException | MalformedURLException ex) {
             ex.printStackTrace();
@@ -172,7 +174,7 @@ public class CreateMapToModify {
     }
 
     private static int getNumberUrl(Document document) {
-        return document.getAnnotations().get("Url").size();
+        return document.getAnnotations().get("URL").size();
 
     }
 
@@ -187,55 +189,43 @@ public class CreateMapToModify {
     private static int getNumberOfLocation(Document document) {
         return document.getAnnotations().get("Location").size();
     }
-    
-    public static String Sentiment(Document doc) {
-        String sentiment="";
-        int senti=0;
-        AnnotationSet lookups=doc.getAnnotations("Sentiment").get("Lookup");
+
+    private static String getSentiment(Document document) throws Exception{
+
+        AnnotationSet sentimentsSets = document.getNamedAnnotationSets().get("Sentiment");
         Annotation lookup;
         FeatureMap fm;
-        Iterator<Annotation> ite=lookups.iterator();
+        Iterator<Annotation> ite= sentimentsSets.iterator();
         String label;
         int pos = 0;
         int neg = 0;
-                
+
         while(ite.hasNext()) {
             lookup = ite.next();
             fm = lookup.getFeatures();
             label = fm.get("majorType").toString();
+
             // compute sentiment value
-            if (label.equals("positive"))
-                pos = pos+1; 
-            else if (label.equals("negative"))
-                neg = neg+1;
+
+            if (label.equals(POSITIVE)) {
+                pos = pos + 1;
+            } else if (label.equals(NEGATIVE)) {
+                neg = neg + 1;
+            } else {
+                throw new Exception("Unexpected label.");
+            }
         }
-        senti = pos - neg;
+
+        int sentimentNumber = pos - neg;
         // compute sentiment label according to senti value
-        if (senti < 0){
-            sentiment = "NEG";
+        if (sentimentNumber < 0){
+            return NEG;
         }
-        else if (senti > 0){
-            sentiment = "POS";
+        else if (sentimentNumber > 0){
+            return POS;
         }
-        else if (senti == 0){
-            sentiment = "NEU";
-        }
-        return sentiment;
-    }
-
-    private static String getSentiment(Document document) {
-
-        String sentiment = String.valueOf(document.getAnnotations().get("Sentiment"));
-
-        switch (sentiment) {
-            case POS:
-                return POS;
-            case NEG:
-                return NEG;
-            case NEU:
-                return NEU;
-            default:
-                return null;
+        else {
+            return NEU;
         }
     }
 }
